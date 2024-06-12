@@ -1,0 +1,34 @@
+.footer {
+
+    /* background: #121212; */
+    margin: auto;
+    padding: 8px 32px 40px 32px;
+    color: white !important;
+
+    a {
+        color: rgb(181, 181, 181) !important;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    a,
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding: 40px 0 32px;
+        color: rgb(181, 181, 181);
+        font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+        ;
+    }
+
+}
