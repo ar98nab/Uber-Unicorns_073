@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(18,18,18);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+#logo-om{
+    position: relative;
+    top: 20px;
+      
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#signupbox{
+    width: 388px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    
+}
+
+input{
+    border: 2px solid rgb(167,167,167);
+    color:rgb(167,167,167) ;
+    width: 324px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+}
+
+input:hover{
+    border: 2px solid white; ;
+}
+
+#submitbut{
+    
+    color:black;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(30,215,96);
+    border: 0px;
+    display: block;
+    cursor: pointer;
+
+}
+
+#thro{
+    color:white;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(18,18,18);
+    border: 0px;
+    display: block;
+    border: 2px solid rgb(167,167,167);
+    text-align: center;
+    
+}
+
+#thro>b{
+    position: relative;
+    bottom: 11px;
+    font-size: 14px;
+}
+
+button:hover{
+    border: 2px solid white; ;
+    
+}
