@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse All</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #000;
+    }
+
+    .nav-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-btn {
+        font-size: 20px;
+        margin-right: 10px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .search-bar {
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+        background-color: #333;
+        color: white;
+        width: 300px;
+    }
+
+    .nav-right button {
+        margin-left: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .sign-up-btn {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .log-in-btn {
+        background-color: white;
+        color: black;
+    }
+
+    .containerr{
+        padding: 20px;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .grid-item {
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+    }
+
+    .podcast {
+        background-color: #0d7377;
+    }
+
+    .live-events {
+        background-color: #8e44ad;
+    }
+ .right{
+    width: 70.5vw;
+    float: right;
+
+
+ }
+ .grid div{
+    width: 270px;
+    height: 154px;
+ }
+ .container{
+    width: 25vw;
+    float: left;
+ }
+    .made-for-you {
+        background-color: #2c3e50;
+    }
+
+    .new-releases {
+        background-color: #e74c3c;
+    }
+
+    .hindi {
+        background-color: #e84393;
+    }
+
+    .punjabi {
+        background-color: #9b59b6;
+    }
+
+    .tamil {
+        background-color: #8e5b5b;
+    }
+
+    .ghazals {
+        background-color: #95a5a6;
+    }
+
+    .podcast-charts {
+        background-color: #2980b9;
+    }
+
+    .podcast-new-releases {
+        background-color: #bdc3c7;
+    }
+
+    .video-podcasts {
+        background-color: #e67e22;
+    }
+
+    .business-technology {
+        background-color: #16a085;
+    }
+</style>
+<body>
+    <div class="container flex bg-black">
+        <div class="left border">
+          <div class="home bg-grey rounded m-1">
+            <div class="logo invert "><img src="logo.svg" alt="" /></div>
+            <ul>
+              <li><img class="invert" src="home.svg" alt="home" />Home</li>
+              <li ><img class="invert" src="search.svg" alt="home" /><button id="searchh">Search</button></li>
+            </ul>
+          </div>
+          <div class="library  rounded p-1">
+          <div class="your-lab">
+            <div class="heading">
+              <img class="invert items-center" src="playlist.svg" alt="" />
+              <h2>Your library</h2>
+          </div>
+          <div class="after-playlist">
+            <div class="sidebar-scroll ">
+              <div class="create-playlist ">
+                <h4 class="p-1">Create your first playlist</h4>
+                <p class="p-1">it's easy,we'll help you</p>
+                <button>Create playlist</button>
+              </div>
+              <div class="create-playlist">
+                <h4 class="p-1">Create your first playlist</h4>
+                <p class="p-1">it's easy,we'll help you</p>
+                <button>Create playlist</button>
+              </div>
+            </div>
+            </div>
+            <div class="footer">
+              <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy Center</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+              <div><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"><span class="encore-text encore-text-marginal">Cookies</span></a></div>
+            </div>
+  
+          </div>
+          
+        </div>
+        <div class="englis">
+          <button class="bg-black ">  
+         <span><img   src="english.svg"  class ="invert" alt=""> </span>
+          <span class="eng">English</span>
+          </button>
+         </div>
+         </div>      
+  
+      </div>
+      <div class="right">
+    <nav class="navbar">
+        <div class="nav-left">
+            <button class="back-btn">←</button>
+            <input type="text" class="search-bar" placeholder="What do you want to play?">
+        </div>
+        <div class="nav-right">
+            <button class="sign-up-btn">Sign up</button>
+            <button class="log-in-btn">Log in</button>
+        </div>
+    </nav>
+    
+    <div class="containerr">
+        <h1>Browse all</h1>
+        <div class="grid">
+            <div class="grid-item podcast">Podcasts</div>
+            <div class="grid-item live-events">Live Events</div>
+            <div class="grid-item made-for-you">Made For You</div>
+            <div class="grid-item new-releases">New Releases</div>
+            <div class="grid-item hindi">Hindi</div>
+            <div class="grid-item punjabi">Punjabi</div>
+            <div class="grid-item tamil">Tamil</div>
+            <div class="grid-item ghazals">Ghazals</div>
+            <div class="grid-item podcast-charts">Podcast Charts</div>
+            <div class="grid-item podcast-new-releases">Podcast New Releases</div>
+            <div class="grid-item video-podcasts">Video Podcasts</div>
+            <div class="grid-item business-technology">Business & Technology</div>
+        </div>
+    </div>
+
+    <script src="search.js"></script>
+</body>
+</html>
