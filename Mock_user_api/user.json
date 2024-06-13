@@ -1,0 +1,7 @@
+{
+    "user":[
+        {"id":1,"email":"omshre06@gmail.com" , "password" :"omsh2003@" , "name":"om shrestha" , "DOB":"2003-01-06" , "gender":"male"} ,
+        {"id":2,"email":"rakeah33@gmail.com" , "password" :"rakesh33@" , "name":"Rakesh Roshan" , "DOB":"2000-05-07" , "gender":"male"} ,
+        {"id":3,"email":"punam10@gmail.com" , "password" :"punam234@" , "name":"punam tripathi" , "DOB":"2003-01-10" , "gender":"female"}
+    ]
+  }
