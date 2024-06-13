@@ -4,9 +4,7 @@
 .justify-center{
     justify-content: center;
 }
-.border{
-    border: 2px solid red;
-}
+
 .items-center{
     align-items: center;
 }
@@ -17,6 +15,9 @@
 .invert{
     filter:invert(1) ;
 }
+.logo{
+    padding: 2px;
+}
 .bg-grey{
     background-color: #121212;
 }
@@ -24,8 +25,8 @@
 border-radius: 7px ;    
 }
 .m-1{
-    margin: 5px;
+    margin: 7px;
 }
 .p-1{
-    padding: 10px;
+    padding: 5px;
 }
