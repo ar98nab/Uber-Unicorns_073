@@ -1,0 +1,51 @@
+.playlistContainer {
+    margin: 3% auto 3%;
+
+    .playlist {
+        margin-top: 1%;
+
+        .card {
+            width:min-content;
+            background-color: transparent; /* Fallback color */
+
+            padding: 15px;
+            img {
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            p {
+                color: rgb(181, 181, 181) !important;
+            }
+
+            h6 {
+                margin-top: 15px;
+                color: rgba(250, 248, 248, 0.874);
+            }
+        }
+
+        .playBtn img {
+            position: absolute;
+            top: 150px;
+            right: 25px;
+            width: 50px;
+            border-radius: 50px;
+            visibility: hidden;
+            transform: translateY(5px);
+            transition: transform 0.1s ease, visibility 0.1s ease;
+          }
+
+        .card:hover{
+            background-color: #000000; /* Fallback color */
+            background-image: linear-gradient(to bottom right, #000000, #333333); /* Gradient */
+            /* Add any additional CSS properties here */    border-radius: 10px;
+        }
+
+        .card:hover .playBtn img {
+            visibility: visible;
+            transform: translateY(-5px);
+            transition: transform 0.5s ease, visibility 0.5s ease;
+          }
+    }
+
+}
