@@ -1,0 +1,247 @@
+body{
+    background-color: rgb(18,18,18);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+#logo-om{
+    position: relative;
+    top: 20px;
+      
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#signupbox{
+    width: 388px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    
+}
+
+#email{
+    border: 2px solid rgb(167,167,167);
+    color:rgb(167,167,167) ;
+    width: 324px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+}
+
+
+#email:hover{
+    border: 2px solid white; ;
+}
+
+#submitbut{
+    
+    color:black;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(30,215,96);
+    border: 0px;
+    display: block;
+    cursor: pointer;
+
+}
+
+#thro{
+    color:white;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(18,18,18);
+    border: 0px;
+    display: block;
+    border: 2px solid rgb(167,167,167);
+    text-align: center;
+    
+}
+
+#thro>b{
+    position: relative;
+    bottom: 11px;
+    font-size: 14px;
+}
+
+
+
+#signupbox-2{
+    width: 388px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 12px;
+}
+
+#prev{
+    padding: 10px;
+    background-color:rgb(18,18,18) ;
+    border-radius: 50%;
+    color:rgb(167,167,167);
+    border: 0px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+#prevgrid>p{
+    display: inline;
+    position: relative;
+    bottom: 15px;
+    
+    
+}
+
+#prevgrid>p:nth-of-type(2){
+    display: inline;
+    position: relative;
+    bottom: 18px;
+    left: 38px;
+    
+    
+}
+
+#prevgrid>p:nth-of-type(1){
+    color: rgb(167,167,167);
+    
+}
+
+#password{
+    border: 2px solid rgb(167,167,167);
+    color:rgb(167,167,167) ;
+    width: 324px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+
+}
+#password:hover{
+    border: 2px solid white; ;
+}
+
+#signupbox-3{
+
+    width: 388px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 12px;
+}
+
+#name{
+    border: 2px solid rgb(167,167,167);
+    color:rgb(167,167,167) ;
+    width: 324px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+}
+
+#name:hover{
+    border: 2px solid white; ;
+}
+
+#year{
+    border: 2px solid rgb(167,167,167);
+    color:rgb(167,167,167) ;
+    width: 93.1px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+    text-align: center;
+}
+#year:hover{
+    border: 2px solid white; ;
+}
+
+#month{
+    border: 2px solid rgb(167,167,167);
+    color:white ;
+    width: 152.26px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+    text-align: center;   
+}
+#month:hover{
+    border: 2px solid white; ;
+}
+
+#date{
+    border: 2px solid rgb(167,167,167);
+    color:rgb(167,167,167) ;
+    width: 62.26px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+    text-align: center;   
+}
+#date:hover{
+    border: 2px solid white; ;
+}
+
+#gendertype{
+    border: 2px solid rgb(167,167,167);
+    color:white ;
+    width: 324px;
+    height: 48px;
+    border-radius: 7px;
+    background-color: rgb(18,18,18);
+    text-align: center;
+    font-size: 16px;
+}
+
+.slide{
+    width: 388px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 12px;   
+}
+
+#Tc{
+   
+    color:rgb(167,167,167) ;
+    width: 324px;
+    height: 75.2px;
+    border-radius: 7px;
+    background-color: rgb(35,35,35);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px;
+    font-size: 14px;
+    
+   }
+
+   #Signupbut{
+    color:black;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(30,215,96);
+    border: 0px;
+    display: block;
+    cursor: pointer;
+
+   }
+   .slider{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+   }
+
+   .slide{
+    display: none;
+   }
+
+   div .displaySlides{
+    display: block;
+   }
