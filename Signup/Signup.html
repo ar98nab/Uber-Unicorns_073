@@ -11,14 +11,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-
-
     <header>
         <img id="logo-om" src="./Screenshot 2024-06-12 154051.png" alt="error" width="90px" >
     </header> 
-
-    <div id="signupbox">
+<div class="slider">
+    <div class="slides">
+    <div class="slide">
+        
         <h1 style="font-size: 44px; text-align: center;">Sign up to start listening</h1>
 
         
@@ -29,9 +28,10 @@
             <input id="email" type="email" placeholder="name@domen.com"><br><br>
 
             <a style="color: rgb(30,215,96);" href="">Use phone number instead.</a>
-        </form>
+            <br>
+        
    <br>
-        <button id="submitbut" type="submit"><b>Next</b></button>
+        <button id="submitbut" onclick="nextSlide()"><b>Next</b></button>
 
         <br><br>
     <span style="display: flex; box-sizing: border-box; padding: 8px;">
@@ -53,7 +53,116 @@
      <p style="color:rgb(167,167,167) ; font-size: 12px; text-align: center;">This site is protected by reCAPTCHA and the Google
         <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/terms">Terms of Service </a>apply.</p>
 </div>
+<br>
+<div class="slide">
+     <span id="prevgrid">
+    <button id="prev" onclick="prevSlide()">&#10094</button>
+    <p>Step 1 of 3</p><br>
+    <p>Create a password</p>
+      </span>
+      <br><br>
 
+      <label for="password">Password</label><br><br>
+      <input id="password" type="password">
+<br><br><br>
+      <label for="passwordcheck">Your password must contain at least</label>
+      <br><br>
+      <input type="checkbox" id="check1"> <label for="checkbox1">1 letter</label><br>
+      <input type="checkbox" id="check1"> <label for="checkbox1">1 number or special character (example: # ? !&)</label><br>
+      <input type="checkbox" id="check1"> <label for="checkbox1">10 characters</label><br><br><br>
+
+      <button id="submitbut" onclick="nextSlide()"><b>Next</b></button>
+
+   
+</div>
+
+<br>
+<div class="slide">
+
+    <span id="prevgrid">
+        <button id="prev" onclick="prevSlide()">&#10094</button>
+        <p>Step 2 of 3</p><br>
+        <p>Tell us about yourself</p>
+          </span>
+          <br><br>
+   
+    <label for="name"><b>Name</b></label><br>
+    <label style="color: rgb(167,167,167); font-size: 13px;" for="name">This name will appear on your profile</label><br><br>
+    <input type="text" id="name">
+<br> <br><br>
+    <label for="DOB"><b>Date of birth</b></label><br>
+    <label style="color: rgb(167,167,167); font-size: 13px;" for="DOB">This name will appear on your profile</label><br><br>
+   
+    <input type="number" placeholder="YYYY" id="year" maxlength="4"> 
+    <select name="month" id="month" >
+        <option value="January"><b>January</b></option>
+        <option value="February"><b>February</b></option>
+        <option value="March"><b>March</b></option>
+        <option value="April"><b>April</b></option>
+        <option value="May"><b>May</b></option>
+        <option value="June"><b>June</b></option>
+        <option value="July"><b>July</b></option>
+        <option value="August"><b>August</b></option>
+        <option value="September"><b>September</b></option>
+        <option value="October"><b>October</b></option>
+        <option value="November"><b>November</b></option>
+        <option value="December"><b>December</b></option>
+    </select>
+
+    <input type="number" id="date" maxlength="2" placeholder="dd">
+    <br><br><br>
+
+<label for="gender"><b>Gender</b></label><br>
+    <label style="color: rgb(167,167,167); font-size: 13px;" for="gender">We use your gender to help personalize our content recommendations and ads for you.</label><br><br>
+
+    <select name="gendertype" id="gendertype" >
+        <option value="Man"><b>Man</b></option>
+        <option value="Woman"><b>Woman</b></option>
+        <option value="March"><b>Non-binary</b></option>
+        <option value="Something else"><b>Something else</b></option>
+        <option value="Prefer not to say"><b>Prefer not to say</b></option>
+        
+
+    </select>
+
+    <br><br><br>
+    <button id="submitbut" onclick="nextSlide()"><b>Next</b></button>
+        </form>
+
+</div>
+<br><br>
+
+<div class="slide">
+    <span id="prevgrid">
+        <button id="prev" onclick="prevSlide()">&#10094</button>
+        <p>Step 3 of 3</p><br>
+        <p>Terms & Conditions</p>
+          </span>
+          <br><br>
+
+          <div id="Tc">
+     <input type="checkbox" id="c1">
+     <label for="c1"><b>I would prefer not to receive marketing messages from Spotify</b></label>
+          </div>
+          <br>
+          
+          <div id="Tc">
+            <input type="checkbox" id="c2">
+            <label for="c1"><b>Share my registration data with Spotify's content providers for marketing purposes.</b></label>
+          </div>
+          <p>By clicking on sign-up, you agree to Spotify's <a href="https://www.spotify.com/in-en/legal/end-user-agreement/" style="color: rgb(30,215,96);">Terms and Conditions of Use.</a></p>
+          <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="https://www.spotify.com/in-en/legal/privacy-policy/" style="color: rgb(30,215,96);">Spotify's Privacy Policy.</a></p>
+       
+             <br>
+          <button id="Signupbut"><b>Sign up</b></button>
+          <br><br>
+
+</div>
+
+</div>
+</div>
   
 </body>
 </html>
+
+<script src="./signup.js"></script>
