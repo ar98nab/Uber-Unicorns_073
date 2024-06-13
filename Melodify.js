@@ -1,15 +1,19 @@
 //Arnab
-let loginbutton=document.querySelector(".login")
-loginbutton.addEventListener("click",function(){
-    window.location.href="Login/Login.html"
+let loginbutton = document.querySelector(".login")
+loginbutton.addEventListener("click", function () {
+    window.location.href = "Login/Login.html"
 })
-
+//Om
+let signupbutton = document.querySelector(".Signup")
+signupbutton.addEventListener("click", function () {
+    window.location.href = "Signup/Signup.html"
+})
 // Krushna
 
 let searchbar = document.getElementById('searchh');
 
-searchbar.addEventListener('click', function() {
-    window.location.href ="searchbar_in_sidebar/sidebarsearchbar.html";
+searchbar.addEventListener('click', function () {
+    window.location.href = "searchbar_in_sidebar/sidebarsearchbar.html";
 });
 
 // Sagar
@@ -58,8 +62,8 @@ let showData = async (arr) => {
         playbtn.classList.add("playBtn");
 
         let greenBtn = document.createElement("img");
-        greenBtn.src="https://freepngimg.com/download/icon/video/7410-play-button-green.png"
-             
+        greenBtn.src = "https://freepngimg.com/download/icon/video/7410-play-button-green.png"
+
         playbtn.append(greenBtn)
 
         card.append(images, name, description, playbtn);
