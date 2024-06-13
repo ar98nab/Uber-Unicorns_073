@@ -1,0 +1,475 @@
+.arcontainer{
+    width: 45rem;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+    color: white;
+    background-color:#000000;
+}
+.arimg{
+   display: flex;
+   justify-content: center;
+}
+#arimage{
+      width: 10%;
+      height: 10%;
+}
+.armelodify{
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.arbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin:30px;
+}
+.arbuttonstyle{
+    width: 25em;
+    background-color:#000000;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 80px;
+    height: auto;
+    padding:10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.arline{
+    border-color: rgb(31, 16, 16);
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.arlogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+#aremail{
+    width: 25em;
+    background-color:#000000;
+    border: 1px solid rgb(114, 114, 114);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+#arpassword{
+    width: 25em;
+    background-color: #000000;
+    border: 1px solid rgb(114, 114, 114);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.aralpha{
+    margin-left: 15px;
+}
+.arbuttonlogin{
+    width: 25em;
+    height: 40px;
+    background-color: #1ed760;
+    border-radius: 80px;
+    margin: 20px;
+}
+.arbuttonlogin:hover{
+    transform: scalex(1.05);
+}
+.arforget{
+    text-decoration: underline;
+    color: white;
+}
+.arlast{
+    text-align: center;
+    padding: 40px;
+}
+#arac{
+    color: #9f9999;
+}
+
+@media (width <= 835px) {
+    .arcontainer{
+        width: 100%;
+        height: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: auto;
+        color: white;
+        background-color:#000000;
+    }
+    .arimg{
+       display: flex;
+       justify-content: center;
+    }
+    #arimage{
+          width: 10%;
+          height: 10%;
+    }
+    .armelodify{
+        font-size: x-large;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .arbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin:30px;
+    }
+    .arbuttonstyle{
+        width: 25em;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        border-radius: 80px;
+        height: auto;
+        padding:10px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    .arline{
+        border-color: rgb(31, 16, 16);
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .arlogin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+    #aremail{
+        width: 25em;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    #arpassword{
+        width: 25em;
+        background-color: #000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    .aralpha{
+        margin-left: 15px;
+    }
+    .arbuttonlogin{
+        width: 25em;
+        height: 40px;
+        background-color: #1ed760;
+        border-radius: 80px;
+        margin: 20px;
+    }
+    .arbuttonlogin:hover{
+        transform: scalex(1.05);
+    }
+    .arforget{
+        text-decoration: underline;
+        color: white;
+    }
+    .arlast{
+        text-align: center;
+        padding: 40px;
+    }
+    #arac{
+        color: #9f9999;
+    }
+}
+
+@media (width<= 400px){
+    .arcontainer{
+        width: 200%;
+        height: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: auto;
+        color: white;
+        background-color:#000000;
+    }
+    .arimg{
+       display: flex;
+       justify-content: center;
+    }
+    #arimage{
+          width: 10%;
+          height: 10%;
+    }
+    .armelodify{
+        font-size: x-large;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .arbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin:30px;
+    }
+    .arbuttonstyle{
+        width: 25em;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        border-radius: 80px;
+        height: auto;
+        padding:10px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    .arline{
+        border-color: rgb(31, 16, 16);
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .arlogin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+    #aremail{
+        width: 25em;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    #arpassword{
+        width: 25em;
+        background-color: #000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    .aralpha{
+        margin-left: 15px;
+    }
+    .arbuttonlogin{
+        width: 25em;
+        height: 40px;
+        background-color: #1ed760;
+        border-radius: 80px;
+        margin: 20px;
+    }
+    .arbuttonlogin:hover{
+        transform: scalex(1.05);
+    }
+    .arforget{
+        text-decoration: underline;
+        color: white;
+    }
+    .arlast{
+        text-align: center;
+        padding: 40px;
+    }
+    #arac{
+        color: #9f9999;
+    }
+}
+@media (min-width: 105px) and (max-width: 210px){
+    .arcontainer{
+        width: 400%;
+        height: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: auto;
+        color: white;
+        background-color:#000000;
+    }
+    .arimg{
+       display: flex;
+       justify-content: center;
+    }
+    #arimage{
+          width: 10%;
+          height: 10%;
+    }
+    .armelodify{
+        font-size: x-large;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .arbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin:30px;
+    }
+    .arbuttonstyle{
+        width:25em;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        border-radius: 80px;
+        height: auto;
+        padding:10px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    .arline{
+        border-color: rgb(31, 16, 16);
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .arlogin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+    #aremail{
+        width: 25em;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    #arpassword{
+        width: 25em;
+        background-color: #000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    .aralpha{
+        margin-left: 15px;
+    }
+    .arbuttonlogin{
+        width: 25em;
+        height: 40px;
+        background-color: #1ed760;
+        border-radius: 80px;
+        margin: 20px;
+    }
+    .arbuttonlogin:hover{
+        transform: scalex(1.05);
+    }
+    .arforget{
+        text-decoration: underline;
+        color: white;
+    }
+    .arlast{
+        text-align: center;
+        padding: 40px;
+    }
+    #arac{
+        color: #9f9999;
+    }
+}
+@media (width< 105px) {
+    .arcontainer{
+        width: 400%;
+        height: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: auto;
+        color: white;
+        background-color:#000000;
+    }
+    .arimg{
+       display: flex;
+       justify-content: center;
+    }
+    #arimage{
+          width: 10%;
+          height: 10%;
+    }
+    .armelodify{
+        font-size: x-large;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .arbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin:30px;
+    }
+    .arbuttonstyle{
+        width:25px;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        border-radius: 80px;
+        height: auto;
+        padding:10px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    .arline{
+        border-color: rgb(31, 16, 16);
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .arlogin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+    #aremail{
+        width: 25px;
+        background-color:#000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    #arpassword{
+        width: 25px;
+        background-color: #000000;
+        border: 1px solid rgb(114, 114, 114);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    .aralpha{
+        margin-left: 15px;
+    }
+    .arbuttonlogin{
+        width: 25px;
+        height: 40px;
+        background-color: #1ed760;
+        border-radius: 80px;
+        margin: 20px;
+    }
+    .arbuttonlogin:hover{
+        transform: scalex(1.05);
+    }
+    .arforget{
+        text-decoration: underline;
+        color: white;
+    }
+    .arlast{
+        text-align: center;
+        padding: 40px;
+    }
+    #arac{
+        color: #9f9999;
+    }
+}

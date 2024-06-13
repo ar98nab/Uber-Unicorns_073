@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.back-btn {
+    font-size: 20px;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    width: 300px;
+}
+
+.nav-right button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sign-up-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.log-in-btn {
+    background-color: white;
+    color: black;
+}
+
+.containerr{
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.podcast {
+    background-color: #0d7377;
+}
+
+.live-events {
+    background-color: #8e44ad;
+}
+.right{
+width: 70.5vw;
+float: right;
+
+
+}
+.grid div{
+width: 270px;
+height: 154px;
+}
+.container{
+width: 25vw;
+float: left;
+}
+.made-for-you {
+    background-color: #2c3e50;
+}
+
+.new-releases {
+    background-color: #e74c3c;
+}
+
+.hindi {
+    background-color: #e84393;
+}
+
+.punjabi {
+    background-color: #9b59b6;
+}
+
+.tamil {
+    background-color: #8e5b5b;
+}
+
+.ghazals {
+    background-color: #95a5a6;
+}
+
+.podcast-charts {
+    background-color: #2980b9;
+}
+
+.podcast-new-releases {
+    background-color: #bdc3c7;
+}
+
+.video-podcasts {
+    background-color: #e67e22;
+}
+
+.business-technology {
+    background-color: #16a085;
+}
