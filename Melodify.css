@@ -299,6 +299,8 @@ p {
     border-radius: 10px;
 }
 
+
+
 /* Ritika */
 
 .playlistContainer {
@@ -357,37 +359,54 @@ p {
 /* footer */
 
 .footerf {
-
-    /* background: #121212; */
-    margin: auto;
-    padding: 8px 32px 40px 32px;
+    /* width: 75vw; */
+    height: auto;
+    padding: 10px 30px 50px 30px;
     color: white !important;
-
+    padding-top: 35px;
+  
+    .box {
+      padding-bottom: 20px;
+    }
     a {
-        color: rgb(181, 181, 181) !important;
-        text-decoration: none;
+      color: rgb(181, 181, 181) !important;
+      text-decoration: none;
     }
-
+  
     a:hover {
-        color: white !important;
-        text-decoration: underline !important;
+      color: white !important;
+      text-decoration: underline !important;
     }
-
+  
     h4 {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+    .li-a a p {
+      margin: 0;
+      padding: 0;
+      padding-top: 5px;
+    }
+  
     a,
     h4,
     p {
-        margin-bottom: 0 !important;
+      margin-bottom: 0 !important;
     }
-
-    footer {
-        padding: 40px 0 32px;
-        color: rgb(181, 181, 181);
-        font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
-        ;
+    .social {
+      width: 35px;
+      height: 35px;
+      background-color: rgba(128, 128, 128, 0.32);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
     }
-
-}
+    .social:hover {
+      background-color: rgba(128, 128, 128, 0.727);
+      cursor: pointer;
+    }
+    .copyright {
+      padding-top: 10px;
+      color: rgb(181, 181, 181) !important;
+    }
+  }
