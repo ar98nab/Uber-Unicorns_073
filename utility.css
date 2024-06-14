@@ -1,32 +1,32 @@
-.flex{
+.flexx{
     display: flex;
 }
-.justify-center{
+.justifyy-center{
     justify-content: center;
 }
 
-.items-center{
+.itemss-center{
     align-items: center;
 }
-.bg-black{
+.bgg-black{
     background-color: black;
     color: white;
 }
-.invert{
+.invertt{
     filter:invert(1) ;
 }
-.logo{
+.logoo{
     padding: 2px;
 }
-.bg-grey{
+.bg-greyy{
     background-color: #121212;
 }
-.rounded{
+.roundedd{
 border-radius: 7px ;    
 }
-.m-1{
+.mm-1{
     margin: 7px;
 }
-.p-1{
+.pp-1{
     padding: 5px;
 }

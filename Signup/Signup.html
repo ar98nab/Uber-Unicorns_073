@@ -9,160 +9,178 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
-<body>
+<body id="whole">
     <header>
-        <img id="logo-om" src="./Screenshot 2024-06-12 154051.png" alt="error" width="90px" >
+        <img id="logo-om" src="./melodify.jpeg" alt="error" width="80px" height="80px" style="border-radius: 50%;">
     </header> 
-<div class="slider">
-    <div class="slides">
-    <div class="slide">
+    <br><br>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slide">
         
-        <h1 style="font-size: 44px; text-align: center;">Sign up to start listening</h1>
-
+                <h1 style="font-size: 44px; text-align: center;">Sign up to start listening</h1>
         
-
-        <form>
-            <label for="email">Email address</label><br>
-            <br>
-            <input id="email" type="email" placeholder="name@domen.com"><br><br>
-
-            <a style="color: rgb(30,215,96);" href="">Use phone number instead.</a>
-            <br>
+                
         
-   <br>
-        <button id="submitbut" onclick="nextSlide()"><b>Next</b></button>
-
-        <br><br>
-    <span style="display: flex; box-sizing: border-box; padding: 8px;">
-        <hr style="width: 42%;">or<hr style="width: 42%;">
-     </span><br><br>
-
-     <button id="thro" ><img style="position: relative ; right: 55px;" src="./google.png" alt="error"><b >Sign Up With Google</b> </button>
-     <br>
-     <button id="thro" ><img style="position: relative ; right: 50px;" src="./facebook.png" alt="error"><b>Sign Up With Facebook</b></button><br>
-     <button id="thro" ><img style="position: relative ; right: 55px;" src="./apple.png" alt="error"><b>Sign Up With Apple</b></button><br>
-
-     <hr style="color: rgb(167,167,167);">
-
-     <br>
-
-     <p style=" color: rgb(167,167,167); text-align: center;">Already have an account? <a style="color: white;" href="">Log in here.</a></p>
-     <br>
-
-     <p style="color:rgb(167,167,167) ; font-size: 12px; text-align: center;">This site is protected by reCAPTCHA and the Google
-        <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/terms">Terms of Service </a>apply.</p>
-</div>
-<br>
-<div class="slide">
-     <span id="prevgrid">
-    <button id="prev" onclick="prevSlide()">&#10094</button>
-    <p>Step 1 of 3</p><br>
-    <p>Create a password</p>
-      </span>
-      <br><br>
-
-      <label for="password">Password</label><br><br>
-      <input id="password" type="password">
-<br><br><br>
-      <label for="passwordcheck">Your password must contain at least</label>
-      <br><br>
-      <input type="checkbox" id="check1"> <label for="checkbox1">1 letter</label><br>
-      <input type="checkbox" id="check1"> <label for="checkbox1">1 number or special character (example: # ? !&)</label><br>
-      <input type="checkbox" id="check1"> <label for="checkbox1">10 characters</label><br><br><br>
-
-      <button id="submitbut" onclick="nextSlide()"><b>Next</b></button>
-
-   
-</div>
-
-<br>
-<div class="slide">
-
-    <span id="prevgrid">
-        <button id="prev" onclick="prevSlide()">&#10094</button>
-        <p>Step 2 of 3</p><br>
-        <p>Tell us about yourself</p>
-          </span>
-          <br><br>
-   
-    <label for="name"><b>Name</b></label><br>
-    <label style="color: rgb(167,167,167); font-size: 13px;" for="name">This name will appear on your profile</label><br><br>
-    <input type="text" id="name">
-<br> <br><br>
-    <label for="DOB"><b>Date of birth</b></label><br>
-    <label style="color: rgb(167,167,167); font-size: 13px;" for="DOB">This name will appear on your profile</label><br><br>
-   
-    <input type="number" placeholder="YYYY" id="year" maxlength="4"> 
-    <select name="month" id="month" >
-        <option value="January"><b>January</b></option>
-        <option value="February"><b>February</b></option>
-        <option value="March"><b>March</b></option>
-        <option value="April"><b>April</b></option>
-        <option value="May"><b>May</b></option>
-        <option value="June"><b>June</b></option>
-        <option value="July"><b>July</b></option>
-        <option value="August"><b>August</b></option>
-        <option value="September"><b>September</b></option>
-        <option value="October"><b>October</b></option>
-        <option value="November"><b>November</b></option>
-        <option value="December"><b>December</b></option>
-    </select>
-
-    <input type="number" id="date" maxlength="2" placeholder="dd">
-    <br><br><br>
-
-<label for="gender"><b>Gender</b></label><br>
-    <label style="color: rgb(167,167,167); font-size: 13px;" for="gender">We use your gender to help personalize our content recommendations and ads for you.</label><br><br>
-
-    <select name="gendertype" id="gendertype" >
-        <option value="Man"><b>Man</b></option>
-        <option value="Woman"><b>Woman</b></option>
-        <option value="March"><b>Non-binary</b></option>
-        <option value="Something else"><b>Something else</b></option>
-        <option value="Prefer not to say"><b>Prefer not to say</b></option>
+                <form id="formdata">
+                    <label for="email">Email address</label><br>
+                    <br>
+                    <input id="email" type="email" placeholder="name@domen.com" required><br><br>
         
-
-    </select>
-
-    <br><br><br>
-    <button id="submitbut" onclick="nextSlide()"><b>Next</b></button>
-        </form>
-
-</div>
-<br><br>
-
-<div class="slide">
-    <span id="prevgrid">
-        <button id="prev" onclick="prevSlide()">&#10094</button>
-        <p>Step 3 of 3</p><br>
-        <p>Terms & Conditions</p>
-          </span>
-          <br><br>
-
-          <div id="Tc">
-     <input type="checkbox" id="c1">
-     <label for="c1"><b>I would prefer not to receive marketing messages from Spotify</b></label>
-          </div>
-          <br>
-          
-          <div id="Tc">
-            <input type="checkbox" id="c2">
-            <label for="c1"><b>Share my registration data with Spotify's content providers for marketing purposes.</b></label>
-          </div>
-          <p>By clicking on sign-up, you agree to Spotify's <a href="https://www.spotify.com/in-en/legal/end-user-agreement/" style="color: rgb(30,215,96);">Terms and Conditions of Use.</a></p>
-          <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="https://www.spotify.com/in-en/legal/privacy-policy/" style="color: rgb(30,215,96);">Spotify's Privacy Policy.</a></p>
-       
+                    <a style="color: rgb(30,215,96);" href="">Use phone number instead.</a>
+                    <br>
+                
+           <br>
+                <button id="submitbut"   type="button" data-bs-target="#carouselExample" onclick="check()" data-bs-slide="next"><b>Next</b></button>
+               
+                <span class="visually-hidden">Previous</span>
+                <br><br>
+            <span style="display: flex; box-sizing: border-box; padding: 8px;">
+                <hr style="width: 42%;">or<hr style="width: 42%;">
+             </span><br><br>
+        
+             <button id="thro"  s><img style="position: relative ; right: 55px;" src="./google.png" alt="error"><b style="position: relative; top: 3px;">Sign Up With Google</b> </button>
              <br>
-          <button id="Signupbut"><b>Sign up</b></button>
-          <br><br>
+             <button id="thro2" ><img style="position: relative ; right: 38px;" src="./facebook.png" alt="error"><b>Sign Up With Facebook</b></button><br>
+             <button id="thro3" ><img style="position: relative ; right: 55px;" src="./apple.png" alt="error"><b>Sign Up With Apple</b></button><br>
+        
+             <hr style="color: rgb(167,167,167);">
+        
+             <br>
+        
+             <p style=" color: rgb(167,167,167); text-align: center;">Already have an account? <a style="color: white;" href="">Log in here.</a></p>
+             <br>
+        
+             <p style="color:rgb(167,167,167) ; font-size: 12px; text-align: center;">This site is protected by reCAPTCHA and the Google
+                <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/terms">Terms of Service </a>apply.</p>
+            
+             </div>
+        
+          </div>
+          <div class="carousel-item">
+            <div class="slide">
+                <span id="prevgrid">
+               <button id="prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >&#10094</button>
+               <span class="visually-hidden">Previous</span>
+               <p>Step 1 of 3</p><br>
+               <p>Create a password</p>
+                 </span>
+                 <br>
+           
+                 <label for="password">Password</label><br><br>
+                 <input id="password" type="password">
+           <br><br><br>
+                 <p>Your password must contain at least</p>
+                 <br>
+                 <input type="checkbox" id="check1"> <label for="check1">1 letter</label><br>
+                 <input type="checkbox" id="check2"> <label for="check2">1 number or special character (example: # ? !&)</label><br>
+                 <input type="checkbox" id="check3"> <label for="check3">10 characters</label><br><br>
+           
+                 <button id="submitbut2" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><b>Next</b></button>
+                 <span class="visually-hidden">next</span>
+              
+           </div>
+          </div>
 
-</div>
+          <div class="carousel-item">
+            <div class="slide">
 
-</div>
-</div>
-  
+                <span class="prevgrid">
+                    <button id="prev2" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >&#10094</button>
+                    <span class="visually-hidden">Previous</span>
+                    <p>Step 2 of 3</p><br>
+                    <p>Tell us about yourself</p>
+                      </span>
+                      <br><br>
+               
+                <label for="name"><b>Name</b></label><br>
+                <label style="color: rgb(167,167,167); font-size: 13px;" for="name" name="name">This name will appear on your profile</label><br><br>
+                <input type="text" id="name">
+            <br> <br><br>
+                <p><b>Date of birth</b></p>
+                <p style="color: rgb(167,167,167); font-size: 13px;" for="DOB">This name will appear on your profile</p>
+               
+                <input type="number" placeholder="YYYY" id="year" maxlength="4" class="DOB" > 
+                <select name="month" id="month" class="DOB" >
+                    <option value="January"><b>January</b></option>
+                    <option value="February"><b>February</b></option>
+                    <option value="March"><b>March</b></option>
+                    <option value="April"><b>April</b></option>
+                    <option value="May"><b>May</b></option>
+                    <option value="June"><b>June</b></option>
+                    <option value="July"><b>July</b></option>
+                    <option value="August"><b>August</b></option>
+                    <option value="September"><b>September</b></option>
+                    <option value="October"><b>October</b></option>
+                    <option value="November"><b>November</b></option>
+                    <option value="December"><b>December</b></option>
+                </select>
+            
+                <input type="number" id="date" maxlength="2" placeholder="dd" class="DOB" >
+                <br><br>
+            
+            <p for="gender"><b>Gender</b></p><br>
+                <p style="color: rgb(167,167,167); font-size: 13px;" for="gender">We use your gender to help personalize our content recommendations and ads for you.</p><br>
+            
+                <select name="gendertype" id="gendertype" >
+                    <option value="Man"><b>Man</b></option>
+                    <option value="Woman"><b>Woman</b></option>
+                    <option value="March"><b>Non-binary</b></option>
+                    <option value="Something else"><b>Something else</b></option>
+                    <option value="Prefer not to say"><b>Prefer not to say</b></option>
+                    
+            
+                </select>
+            
+                <br><br>
+                <button id="submitbut3" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><b>Next</b></button>
+                <span class="visually-hidden">next</span>
+                    </form>
+            
+            </div>
+          </div>
+      
+
+        <div class="carousel-item">
+            <div class="slide">
+                <span class="prevgrid">
+                    <span class="visually-hidden">Previous</span>
+                    <button id="prev3"  type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >&#10094</button>
+                    <p>Step 3 of 3</p><br>
+                    <p>Terms & Conditions</p>
+                      </span>
+                      <br><br>
+            
+                      <div id="Tc">
+                 <input type="checkbox" id="c1">
+                 <label for="c1"><b>I would prefer not to receive marketing messages from Spotify</b></label>
+                      </div>
+                      <br>
+                      
+                      <div id="Tc">
+                        <input type="checkbox" id="c2">
+                        <label for="c1"><b>Share my registration data with Spotify's content providers for marketing purposes.</b></label>
+                      </div>
+                      <p>By clicking on sign-up, you agree to Spotify's <a href="https://www.spotify.com/in-en/legal/end-user-agreement/" style="color: rgb(30,215,96);">Terms and Conditions of Use.</a></p>
+                      <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="https://www.spotify.com/in-en/legal/privacy-policy/" style="color: rgb(30,215,96);">Spotify's Privacy Policy.</a></p>
+                   
+                         <br>
+                      <input type="submit" id="Signupbut"><b>Sign up</b></input>
+                      <br><br>
+            
+            </div>
+          </div>
+        </div>
+        
+       
+      </div>
+      
 </body>
 </html>
 
 <script src="./signup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

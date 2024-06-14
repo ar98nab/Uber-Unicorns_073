@@ -86,7 +86,6 @@ body {
     width: 350px;
     padding: 0px;
     /* background-color: ; */
-
 }
 
 .home ul li {
@@ -167,12 +166,15 @@ body {
 }
 
 
-.create-playlist {
-    width: 235px;
-    color: #FFFFFF;
-    margin: 8px;
-    padding: 14px 20px;
-    height: 120px;
+
+
+
+.create-playlist{
+    width: 268px;
+   color: #FFFFFF;
+   margin: 8px;
+    padding: 10px 4px;
+    height: 136px;
     border-radius: 20px;
     background-color: #242424;
 
@@ -182,7 +184,9 @@ body {
 
 .create-playlist h4 {
     font-size: 16px;
-}
+    margin:0px ;
+    }
+
 
 .create-playlist p {
     font-size: 13px;
@@ -195,7 +199,7 @@ body {
     width: 119.5px;
     height: 32px;
     font-size: 13px;
-    margin: 8px 0px 0px 2px;
+    margin: 0px 0px 0px 2px;
     padding: 4px 16px;
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -211,13 +215,14 @@ body {
     box-shadow: 0.2px 0.2px;
 }
 
+
 button img {
     width: 16px;
 }
 
 .eng {}
 
-.sidebar-scroll {
+.sidebar-scroll{
     height: 200px;
     overflow-y: auto;
 }

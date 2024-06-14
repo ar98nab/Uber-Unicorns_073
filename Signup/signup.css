@@ -1,4 +1,4 @@
-body{
+#whole{
     background-color: rgb(18,18,18);
     color: white;
     font-family: "DM Sans", sans-serif;
@@ -50,8 +50,57 @@ header{
     cursor: pointer;
 
 }
+#submitbut2{
+    
+    color:black;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(30,215,96);
+    border: 0px;
+    display: block;
+    cursor: pointer;
+
+}
+
+#submitbut3{
+    
+    color:black;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(30,215,96);
+    border: 0px;
+    display: block;
+    cursor: pointer;
+
+}
 
 #thro{
+    color:white;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(18,18,18);
+    border: 0px;
+    display: block;
+    border: 2px solid rgb(167,167,167);
+    text-align: center;
+    
+}
+#thro2{
+    color:white;
+    width: 324px;
+    height: 48px;
+    border-radius: 20px;
+    background-color:rgb(18,18,18);
+    border: 0px;
+    display: block;
+    border: 2px solid rgb(167,167,167);
+    text-align: center;
+    
+}
+#thro3{
     color:white;
     width: 324px;
     height: 48px;
@@ -90,6 +139,25 @@ header{
     cursor: pointer;
 }
 
+#prev2{
+    padding: 10px;
+    background-color:rgb(18,18,18) ;
+    border-radius: 50%;
+    color:rgb(167,167,167);
+    border: 0px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#prev3{
+    padding: 10px;
+    background-color:rgb(18,18,18) ;
+    border-radius: 50%;
+    color:rgb(167,167,167);
+    border: 0px;
+    font-size: 28px;
+    cursor: pointer;
+}
 
 #prevgrid>p{
     display: inline;
@@ -229,19 +297,6 @@ header{
     border: 0px;
     display: block;
     cursor: pointer;
-
-   }
-   .slider{
-    position: relative;
-    margin: auto;
-    width: 100%;
-    overflow: hidden;
    }
 
-   .slide{
-    display: none;
-   }
-
-   div .displaySlides{
-    display: block;
-   }
+   
