@@ -77,7 +77,6 @@ body{
 .left{
     width: 350px;
     padding: 0px;   
-    background-color: ; 
     
 }
 
@@ -151,11 +150,11 @@ padding: 4px 8px;
 
 
 .create-playlist{
-    width: 235px;
+    width: 268px;
    color: #FFFFFF;
    margin: 8px;
-    padding: 14px 20px;
-    height: 120px;
+    padding: 10px 4px;
+    height: 136px;
     border-radius: 20px;
     background-color: #242424;
 
@@ -164,6 +163,7 @@ padding: 4px 8px;
 }
 .create-playlist h4{
     font-size: 16px;
+    margin:px ;
     }
 .create-playlist p{
 font-size: 13px;
@@ -175,7 +175,7 @@ font-size: 13px;
     width: 119.5px;
     height: 32px;
     font-size: 13px;
-    margin: 8px 0px 0px 2px;
+    margin: 0px 0px 0px 2px;
     padding: 4px 16px;
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -191,9 +191,7 @@ box-shadow: 0.2px 0.2px;
 button img{
     width:16px ;
 }
-.eng{
 
-}
 .sidebar-scroll{
     height: 200px;
     overflow-y: auto;
