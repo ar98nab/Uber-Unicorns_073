@@ -47,16 +47,10 @@ let showData = async (arr) => {
     firstFive.forEach((ele) => {
         let card = document.createElement("div");
         card.classList.add("card");
-
-        let name = document.createElement("h5");
+        let name = document.createElement("h6");
         name.innerHTML = ele.name;
-        name.classList.add("text-white")
-
         let description = document.createElement("p");
         description.innerHTML = ele.description;
-        description.classList.add("text-white-50")
-        description.classList.add("p-0")
-
         let images = document.createElement("img");
         images.src = ele.images[0][0].url;
 
@@ -69,22 +63,9 @@ let showData = async (arr) => {
         playbtn.append(greenBtn)
 
         card.append(images, name, description, playbtn);
-        card.addEventListener("click", () => redirectToPlaylist(ele.name));
-
         container.append(card);
     });
 
-  
 }
 
-function   redirectToPlaylist (playlistName) {
-    window.location.href = `MelodifyPlaylist/playlist.html?name=${encodeURIComponent(playlistName)}`;
-}
-
-// let showall = document.querySelector("#showall");
-// showall.addEventListener("click", redirectToPlaylist)
-
-
-
-// export { getdata };
 getdata();
