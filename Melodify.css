@@ -76,8 +76,7 @@ body{
 }
 .left{
     width: 350px;
-    padding: 0px;   
-    
+    padding: 0px;      
 }
 
 .home ul li{
@@ -163,7 +162,7 @@ padding: 4px 8px;
 }
 .create-playlist h4{
     font-size: 16px;
-    margin:px ;
+    margin:0px ;
     }
 .create-playlist p{
 font-size: 13px;
@@ -188,10 +187,9 @@ font-size: 13px;
 margin-left: 10px;
 box-shadow: 0.2px 0.2px;
 }
-button img{
-    width:16px ;
+button img{    
+    width:16px;
 }
-
 .sidebar-scroll{
     height: 200px;
     overflow-y: auto;
