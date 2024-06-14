@@ -85,7 +85,7 @@ body {
 .left {
     width: 350px;
     padding: 0px;
-    background-color: ;
+    /* background-color: ; */
 
 }
 
@@ -323,8 +323,8 @@ p {
                 color: rgb(181, 181, 181) !important;
             }
 
-            h6 {
-                margin-top: 15px;
+            h5 {
+                margin-top: 10px;
                 color: rgba(250, 248, 248, 0.874);
             }
         }
