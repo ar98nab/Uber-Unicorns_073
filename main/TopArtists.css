@@ -28,7 +28,7 @@
   width: 70%;
   border-radius: 12px;
   padding: 25px;
-  background-image: url("Background_Image.png");
+  background-image: url("./covers/Background_Image.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -149,9 +149,22 @@
 
 .main {
   background-color: #1d1d1d;
-  width: 75vw;
+  /* width: 75vw; */
 
   font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-right: 20px;
+}
+#sp a {
+  color: white !important;
+}
+#sp a:hover {
+  color: rgba(255, 255, 255, 0.479) !important;
 }
 .artist-container {
   display: flex;
@@ -169,9 +182,14 @@
 a,
 .artist h5,
 p {
+  font-size: medium;
+  padding: 0;
   padding-top: 10px;
   text-align: start;
   text-decoration: none !important;
+}
+.artist p {
+  font-size: 12px;
 }
 .artist_img {
   width: 150px;

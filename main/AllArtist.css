@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.main {
+  background-color: #1d1d1d;
+  /* width: 75vw; */
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main h6 a {
+  /* width: 300px; */
+  padding-left: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-right: 20px;
+}
+
+.artist-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.artist {
+  padding: 20px 20px 0px 20px;
+  width: auto;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+a,
+.artist h5,
+p {
+  font-size: medium;
+  padding: 0;
+  padding-top: 10px;
+  text-align: start;
+  text-decoration: none !important;
+}
+.artist p {
+  font-size: 12px;
+}
+.artist_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+.playBtn img {
+  position: absolute;
+  top: 125px;
+  right: 25px;
+  width: 50px;
+  border-radius: 50px;
+  visibility: hidden;
+  transform: translateY(5px);
+  transition: transform 0.1s ease, visibility 0.1s ease;
+}
+.artist:hover .playBtn img {
+  visibility: visible;
+  transform: translateY(-5px);
+  transition: transform 0.5s ease, visibility 0.5s ease;
+}
+.artist:hover {
+  background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
+  border-radius: 10px;
+}
+
+.footerf {
+  /* width: 75vw; */
+  height: auto;
+  padding: 10px 30px 50px 30px;
+  color: white !important;
+  padding-top: 35px;
+
+  .box {
+    padding-bottom: 20px;
+  }
+  a {
+    color: rgb(181, 181, 181) !important;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+  .li-a a p {
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+  }
+
+  a,
+  h4,
+  p {
+    margin-bottom: 0 !important;
+  }
+  .social {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(128, 128, 128, 0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .social:hover {
+    background-color: rgba(128, 128, 128, 0.727);
+    cursor: pointer;
+  }
+  .copyright {
+    padding-top: 10px;
+    color: rgb(181, 181, 181) !important;
+  }
+}
