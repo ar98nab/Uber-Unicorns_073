@@ -11,7 +11,7 @@ async function handleform(event) {
   try {
     let alldata= await fetch("  http://localhost:3000/user")
      let token=await alldata.json()
-     console.log(token)
+    //  console.log(token)
       let narr=token.filter((ele)=>{
         return (ele.email===usercredentials.email && ele.password===usercredentials.password)
       })
@@ -24,7 +24,7 @@ async function handleform(event) {
 
 function showdata(arr){
   if(arr.length!=0){
-    window.location.href="http://127.0.0.1:5500/Uber-Unicorns_073/Melodify.html"
+    window.location.href="/Melodify.html"
   }
   else{
     alert("Please Signup")
