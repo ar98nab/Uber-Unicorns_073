@@ -1,186 +1,259 @@
-
 {
-    "playlist": {
-      "status": true,
-      "errorId": "Success",
-      "type": "section",
-      "id": "0JQ5DAuChZYPe9iDhh2mJz",
-      "title": "Spotify Playlists",
-      "shareUrl": "https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz",
-      "contents": {
-        "totalCount": 10,
-        "items": [
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DWWQRwui0ExPn",
-            "name": "lofi beats",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn",
-            "description": "chill beats, lofi vibes, new tracks every week... ",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f0000000255be59b7be2929112e7ac927",
-                  "width": null,
-                  "height": null
-                }
-              ]
+  "playlist": {
+    "status": true,
+    "errorId": "Success",
+    "type": "section",
+    "id": "0JQ5DAuChZYPe9iDhh2mJz",
+    "title": "Spotify Playlists",
+    "shareUrl": "https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz",
+    "contents": {
+      "totalCount": 10,
+      "items": [
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DWWQRwui0ExPn",
+          "name": "lofi beats",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn",
+          "description": "chill beats, lofi vibes, new tracks every week... ",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f0000000255be59b7be2929112e7ac927",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DXcBWIGoYBM5M",
-            "name": "Today’s Top Hits",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M",
-            "description": "Sabrina Carpenter is on top of the Hottest 50!",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f00000002100e87512faecef9861e5102",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            {
+              "url": "/MelodifyPlaylist/playlistSongs/alex.mp3",
+              "img": "https://www.free-stock-music.com/thumbnails/alex-productions-hot-pepper.jpg",
+              "duration": "1:54",
+              "name": "Hot Pepper Alex-Productions"
+            },
+            {
+              "url": "/MelodifyPlaylist/playlistSongs/alex.mp3",
+              "img": "https://www.free-stock-music.com/thumbnails/alex-productions-hot-pepper.jpg",
+              "duration": "1:54",
+              "name": "Hot Pepper Alex-Productions"
+            },
+            {
+              "url": " ",
+              "img": " ",
+              "duration": " ",
+              "name": " "
+            }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DXcBWIGoYBM5M",
+          "name": "Today’s Top Hits",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M",
+          "description": "Sabrina Carpenter is on top of the Hottest 50!",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f00000002100e87512faecef9861e5102",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DWTvNyxOwkztu",
-            "name": "Chillout Lounge",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWTvNyxOwkztu",
-            "description": "Just lean back and enjoy relaxed beats.",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            {
+              "url": " ",
+              "img": " ",
+              "duration": " ",
+              "name": " "
+            },
+            {
+              "url": " ",
+              "img": " ",
+              "duration": " ",
+              "name": " "
+            }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DWTvNyxOwkztu",
+          "name": "Chillout Lounge",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWTvNyxOwkztu",
+          "description": "Just lean back and enjoy relaxed beats.",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DX2M1RktxUUHG",
-            "name": "All Out 2020s",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX2M1RktxUUHG",
-            "description": "The biggest songs of the 2020s. Cover: Doja Cat",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f00000002b43eac9f01f8b865662b5c29",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DX2M1RktxUUHG",
+          "name": "All Out 2020s",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX2M1RktxUUHG",
+          "description": "The biggest songs of the 2020s. Cover: Doja Cat",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f00000002b43eac9f01f8b865662b5c29",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DWV7EzJMK2FUI",
-            "name": "Jazz in the Background",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWV7EzJMK2FUI",
-            "description": "Soft instrumental Jazz for all your activities.",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f00000002472120b92edea982b5feb264",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DWV7EzJMK2FUI",
+          "name": "Jazz in the Background",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWV7EzJMK2FUI",
+          "description": "Soft instrumental Jazz for all your activities.",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f00000002472120b92edea982b5feb264",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DX4WYpdgoIcn6",
-            "name": "Chill Hits",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6",
-            "description": "Kick back to the best new and recent chill hits.",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f000000020408713c731caaf1f800615a",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DX4WYpdgoIcn6",
+          "name": "Chill Hits",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6",
+          "description": "Kick back to the best new and recent chill hits.",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f000000020408713c731caaf1f800615a",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DX4sWSpwq3LiO",
-            "name": "Peaceful Piano",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4sWSpwq3LiO",
-            "description": "Peaceful piano to help you slow down, breathe, and relax. ",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f0000000283da657fca565320e9311863",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DX4sWSpwq3LiO",
+          "name": "Peaceful Piano",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4sWSpwq3LiO",
+          "description": "Peaceful piano to help you slow down, breathe, and relax. ",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f0000000283da657fca565320e9311863",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DWXRqgorJj26U",
-            "name": "Rock Classics",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U",
-            "description": "Rock legends & epic songs that continue to inspire generations. Cover: The Rolling Stones",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f000000024a83d42ca84e63abc9413b5d",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DWXRqgorJj26U",
+          "name": "Rock Classics",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U",
+          "description": "Rock legends & epic songs that continue to inspire generations. Cover: The Rolling Stones",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f000000024a83d42ca84e63abc9413b5d",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DWXe9gFZP0gtP",
-            "name": "Stress Relief",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWXe9gFZP0gtP",
-            "description": "Calm your mind from anxiety with gentle piano and ambient music.",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f000000025db1394baf8862336f19ac83",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DWXe9gFZP0gtP",
+          "name": "Stress Relief",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWXe9gFZP0gtP",
+          "description": "Calm your mind from anxiety with gentle piano and ambient music.",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f000000025db1394baf8862336f19ac83",
+                "width": null,
+                "height": null
+              }
             ]
-          },
-          {
-            "type": "playlist",
-            "id": "37i9dQZF1DX4UtSsGT1Sbe",
-            "name": "All Out 80s",
-            "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4UtSsGT1Sbe",
-            "description": "The biggest songs of the 1980s. Cover: Bruce Springsteen",
-            "owner": { "type": "user", "name": "Spotify" },
-            "images": [
-              [
-                {
-                  "url": "https://i.scdn.co/image/ab67706f00000002d6710ea346fec48e89d77dba",
-                  "width": null,
-                  "height": null
-                }
-              ]
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        },
+        {
+          "type": "playlist",
+          "id": "37i9dQZF1DX4UtSsGT1Sbe",
+          "name": "All Out 80s",
+          "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4UtSsGT1Sbe",
+          "description": "The biggest songs of the 1980s. Cover: Bruce Springsteen",
+          "owner": { "type": "user", "name": "Spotify" },
+          "images": [
+            [
+              {
+                "url": "https://i.scdn.co/image/ab67706f00000002d6710ea346fec48e89d77dba",
+                "width": null,
+                "height": null
+              }
             ]
-          }
-        ]
-      }
+          ],
+          "music": [
+            { "url": " ", "img": " ", "duration": " ", "name": " " },
+            { "url": " ", "img": " ", "duration": " ", "name": " " }
+          ]
+        }
+      ]
     }
-  }
+  },
+  "user":[
+        {"id":1,"email":"omshre06@gmail.com" , "password" :"omsh2003@" , "name":"om shrestha" , "DOB":"2003-01-06" , "gender":"male"} ,
+        {"id":2,"email":"rakeah33@gmail.com" , "password" :"rakesh33@" , "name":"Rakesh Roshan" , "DOB":"2000-05-07" , "gender":"male"} ,
+        {"id":3,"email":"punam10@gmail.com" , "password" :"punam234@" , "name":"punam tripathi" , "DOB":"2003-01-10" , "gender":"female"}
+    ]
+
+
+
+}
