@@ -35,7 +35,7 @@
                     <br>
                 
            <br>
-                <button id="submitbut"   type="button" data-bs-target="#carouselExample" onclick="check()" data-bs-slide="next"><b>Next</b></button>
+                <button id="submitbut"   type="button" data-bs-target="#carouselExample" data-bs-slide="next"><b>Next</b></button>
                
                 <span class="visually-hidden">Previous</span>
                 <br><br>
@@ -58,19 +58,21 @@
              <p style="color:rgb(167,167,167) ; font-size: 12px; text-align: center;">This site is protected by reCAPTCHA and the Google
                 <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/terms">Terms of Service </a>apply.</p>
             
+                </form>
              </div>
         
           </div>
           <div class="carousel-item">
             <div class="slide">
-                <span id="prevgrid">
+                <span class="prevgrid">
+
                <button id="prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >&#10094</button>
                <span class="visually-hidden">Previous</span>
                <p>Step 1 of 3</p><br>
                <p>Create a password</p>
                  </span>
                  <br>
-           
+               <form>
                  <label for="password">Password</label><br><br>
                  <input id="password" type="password">
            <br><br><br>
@@ -82,7 +84,7 @@
            
                  <button id="submitbut2" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><b>Next</b></button>
                  <span class="visually-hidden">next</span>
-              
+              </form>
            </div>
           </div>
 
@@ -96,6 +98,7 @@
                     <p>Tell us about yourself</p>
                       </span>
                       <br><br>
+                      <form>
                
                 <label for="name"><b>Name</b></label><br>
                 <label style="color: rgb(167,167,167); font-size: 13px;" for="name" name="name">This name will appear on your profile</label><br><br>
@@ -154,14 +157,14 @@
                     <p>Terms & Conditions</p>
                       </span>
                       <br><br>
-            
-                      <div id="Tc">
+             <form>
+                      <div class="Tc">
                  <input type="checkbox" id="c1">
                  <label for="c1"><b>I would prefer not to receive marketing messages from Spotify</b></label>
                       </div>
                       <br>
                       
-                      <div id="Tc">
+                      <div class="Tc">
                         <input type="checkbox" id="c2">
                         <label for="c1"><b>Share my registration data with Spotify's content providers for marketing purposes.</b></label>
                       </div>
@@ -169,9 +172,9 @@
                       <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="https://www.spotify.com/in-en/legal/privacy-policy/" style="color: rgb(30,215,96);">Spotify's Privacy Policy.</a></p>
                    
                          <br>
-                      <input type="submit" id="Signupbut"><b>Sign up</b></input>
+                      <input type="submit" id="Signupbut"><b>Sign up</b>
                       <br><br>
-            
+            </form>
             </div>
           </div>
         </div>
