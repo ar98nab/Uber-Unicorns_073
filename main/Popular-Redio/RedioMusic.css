@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.brand img {
+  width: 44px;
+  padding: 0 5px;
+  border-radius: 50%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  padding-right: 20px;
+}
+
+.container {
+  min-height: 70vh;
+  background-image: linear-gradient(to bottom, #1d1d1d, #33333378);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  margin: 25px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 25px;
+  background-image: url("./covers/Background_Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: auto;
+}
+
+.background {
+  background-image: linear-gradient(to bottom, #1d1d1d, #333333);
+  color: white;
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0px;
+  height: 120px;
+  background-image: linear-gradient(to bottom, #292929, #1a1a1a);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 5px solid red;
+}
+
+.icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 30px;
+}
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+.songList h6 a {
+  width: 175px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.songList h6 a:hover {
+  color: gray;
+}
+
+.songList h1 {
+  padding-left: 25px;
+  background: linear-gradient(to bottom, red, rgba(255, 0, 0, 0.297));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.songItemContainer {
+  margin-top: 35px;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-image: linear-gradient(to bottom, #292929, #101010);
+  color: white;
+  margin: 15px 15px;
+  justify-content: start;
+  align-items: center;
+  border-radius: 35px;
+  transform: translateY(5px);
+  transition: transform 0.1s ease, visibility 0.1s ease;
+}
+
+.songItem:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #292929,
+    rgba(255, 255, 255, 0.28)
+  );
+  transform: translateY(-5px);
+  transition: transform 0.5s ease, visibility 0.5s ease;
+}
+
+.songItem img {
+  width: 40px;
+  margin: 0 20px;
+  border-radius: 30px;
+}
+
+.timestamp {
+  margin: 0 25px;
+  color: green;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Poppins", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: red;
+  }
+}
+
+#sp a {
+  color: white !important;
+}
+#sp a:hover,
+.title h6 a:hover {
+  color: rgba(255, 255, 255, 0.479) !important;
+}
+.artist-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
+}
+.artist {
+  padding: 20px 20px 0px 20px;
+  width: auto;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+a,
+.artist h5,
+p {
+  font-size: medium;
+  padding: 0;
+  padding-top: 10px;
+  text-align: start;
+  text-decoration: none !important;
+}
