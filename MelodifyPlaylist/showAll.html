@@ -9,15 +9,117 @@
   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="/Melodify.css">
+    <style>
+      nav{
+        margin: 0;
+        position: sticky;
+        top:0;
+        padding:  3vh  9vw  ;
+
+        z-index: 2;
+      }
+      .playlistContainer{
+        margin-top: 0;
+        padding-top: 2%;
+      }
+     
+    </style>
 </head>
 <body>
-    <section class="playlistContainer ">
-        <div class="container-lg">
 
-            <h3> Melodify Playlist</h3>
+    <nav class="bg-black">
+       <img src="/images/logo.png" height="50px" width="200px">
+    </nav>
+    <section class="playlistContainer bg-gradient bg-black">
+        <div class="container-lg">
+            <h3> Melodify Playlists</h3>
+
             <div class=" d-flex  flex-row  playlist flex-wrap justify-content-start gap-2"></div>
         </div>
         </section>
+
+
+                   <!--    Footer Section   -->
+    <section class="footerf bg-black  ">
+
+        <div class=" justify-content-between d-flex flex-wrap w-100  border-bottom border-secondary">
+            <div class="d-flex flex-wrap  justify-content-between w-75 ">
+  
+                <div>
+                    <h4>Company</h4>
+  
+                    <a href="">
+                        <p > About </p>
+                    </a>
+                    <a href="#">
+                        <p> Jobs </p>
+                    </a>
+                    <a href="#">
+                        <p> For the Record</p>
+                    </a>
+  
+                </div>
+                <div>
+                    <h4>Communities</h4>
+  
+                    <a href="#">
+                        <p>For Artists</p>
+                    </a>
+                    <a href="#">
+                        <p>Developers</p>
+                    </a>
+                    <a href="#">
+                        <p>Advertising</p>
+                    </a>
+                    <a href="#">
+                        <p>Investors</p>
+                    </a>
+                    <a href="#">
+                        <p>Vendors </p>
+                    </a>
+                </div>
+                <div>
+                    <h4>Useful links</h4>
+  
+                    <a href="#">
+                        <p>Support </p>
+                    </a>
+                    <a href="#">
+                        <p>Free Mobile App</p>
+                    </a>
+  
+                </div>
+                <div>
+                    <h4>Spotify Plans</h4>
+  
+                    <a href="#">
+                        <p> Premium Individual</p>
+                    </a>
+                    <a href="#">
+                        <p> Premium Duo</p>
+                    </a>
+                    <a href="#">
+                        <p> Premium Family</p>
+                    </a>
+                    <a href="#">
+                        <p> Premium Student</p>
+                    </a>
+                    <a href="#">
+                        <p> Spotify Free</p>
+                    </a>
+                </div>
+            </div>
+  
+            <div class="gap-3 d-flex">
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <footer class="">© 2024 Spotify AB </footer>
+    </section>
+    <script src="https://kit.fontawesome.com/ee294c869f.js" crossorigin="anonymous"></script>
+  
 </body>
 <script>
    // Ritika
@@ -65,8 +167,14 @@ let showData = async (arr) => {
         playbtn.append(greenBtn)
 
         card.append(images, name, description, playbtn);
+        card.addEventListener("click", () => redirectToPlaylist(ele.name));
         container.append(card);
     });
+
+    
+function   redirectToPlaylist (playlistName) {
+    window.location.href = `playlist.html?name=${encodeURIComponent(playlistName)}`;
+}
 
 }
 
