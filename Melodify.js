@@ -52,12 +52,13 @@ let showData = async (arr) => {
         let card = document.createElement("div");
         card.classList.add("card");
 
-        let name = document.createElement("h5");
+        let name = document.createElement("h6");
         name.innerHTML = ele.name;
         name.classList.add("text-white")
 
         let description = document.createElement("p");
         description.innerHTML = ele.description;
+        description.textContent = ele.description.slice(0, 40) + '...';
         description.classList.add("text-white-50")
         description.classList.add("p-0")
 

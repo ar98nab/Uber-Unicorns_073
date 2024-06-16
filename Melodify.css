@@ -29,14 +29,24 @@
 }
 
 #navbar {
+    position: sticky;
+    top:0px;
+
+    z-index: 2;
     width: 100%;
     height: 8vh;
-    background-color: #101010;
+    background-color: #101010fc;
     display: flex;
     align-items: center;
     justify-content: right;
     gap: 20px;
 }
+
+.background-clr{
+    background-color: #101010fc;
+
+}
+
 
 .Signup {
     color: #656565;
@@ -74,7 +84,6 @@ body {
     width: 350px;
     background-color: #242424;
     float: left;
-
 }
 
 .after-playlist {
@@ -86,6 +95,7 @@ body {
     width: 350px;
     padding: 0px;
     /* background-color: ; */
+    
 }
 
 .home ul li {
@@ -329,10 +339,14 @@ p {
             }
 
             p {
+                font-size: small;
+                font-family: Poppins;
                 color: rgb(181, 181, 181) !important;
             }
 
-            h5 {
+            h6 {
+                font-family: Poppins;
+                font-weight:bolder ;
                 margin-top: 10px;
                 color: rgba(250, 248, 248, 0.874);
             }
@@ -352,6 +366,11 @@ p {
         .card:hover {
             background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
             border-radius: 10px;
+            cursor: pointer;
+
+            h6{
+                text-decoration: underline
+            }
         }
 
         .card:hover .playBtn img {
@@ -418,3 +437,7 @@ p {
       color: rgb(181, 181, 181) !important;
     }
   }
+
+
+
+  
