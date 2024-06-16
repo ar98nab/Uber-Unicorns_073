@@ -1,10 +1,5 @@
 
 
-async function getdata() {
-    let res = await fetch(`http://localhost:3000/user`);
-    let data = await res.json();
-    console.log(data);
-  }
 
 
   let form=document.querySelector("form");
@@ -15,18 +10,26 @@ async function getdata() {
 
     event.preventDefault();
 
-      let email=event.target[email].value
-      let password=event.target[1].value
-      let name=event.target[2].value
-      let year =event.target[3].value
-      let month = event.target[4].value
-      let date=event.target[5].value
-      let gender=event.target[6].value
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let name = document.getElementById("name").value;
+    let year = document.getElementById("year").value;
+    let month = document.getElementById("month").value;
+    let date = document.getElementById("date").value;
+    let gender = document.getElementById("gendertype").value;
       
 
       let obj={
         email , password , name , year , month , date , gender
       }
 
-      console.log(obj);
+      fetch(`http://localhost:3000/user`,{
+
+        method: "POST", // *GET, POST, PUT, DELETE, etc.
+    headers: {
+      "Content-Type": "application/json",
+        },
+    body:JSON.stringify(obj), // body data type must match "Content-Type" header
+  })
+    
   }
