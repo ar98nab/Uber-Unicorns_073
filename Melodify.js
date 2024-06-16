@@ -3,6 +3,7 @@ let loginbutton = document.querySelector(".login")
 loginbutton.addEventListener("click", function () {
     window.location.href = "Login/Login.html"
 })
+
 //Om
 let signupbutton = document.querySelector(".Signup")
 signupbutton.addEventListener("click", function () {
