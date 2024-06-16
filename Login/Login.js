@@ -27,7 +27,7 @@ function showdata(arr){
     window.location.href="/Melodify.html"
   }
   else{
-    alert("Please Signup")
+    alert("Wrong Credentials")
   }
 }
 
