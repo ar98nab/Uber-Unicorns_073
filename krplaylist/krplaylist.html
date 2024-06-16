@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="krplaylist.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="krr-container">
+        <img src="" alt="">
+        <header class="krr-header">
+            <div class="krr-logo">Music Player</div>
+            <input type="text" id="krr-search" placeholder="Search songs">
+        </header>
+        <div class="krr-main-content">
+            <div class="krr-playlist-container">
+                <h2 class="krr-playlist-title">My Playlists</h2>
+                <ul id="krr-playlists"></ul>
+                <button id="krr-create-playlist">Create Playlist</button>
+            </div>
+          
+        </div>
+    </div>
+
+    <div id="krcreatePlaylistModal" class="krmodal">
+        <div class="krmodal-content">
+            <span class="krclose">&times;</span>
+            <h2>Create a playlist</h2>
+            <form id="krcreatePlaylistForm">
+                <label for="krplaylistName">Playlist Name:</label>
+                <input type="text" id="krplaylistName" name="krplaylistName" required />
+                <div id="krsongsContainer">
+                   
+                </div>
+                <button type="button" id="kraddSong">Add another song</button>
+                <button type="submit" class="krbtn-primary">Create</button>
+                <button type="button" class="krbtn-secondary krclose">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="krplaylist.js"></script>
+</body>
+</html>
