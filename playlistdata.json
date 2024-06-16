@@ -27,11 +27,12 @@
           ],
           "music": [
             {
-              "url": "/MelodifyPlaylist/playlistSongs/pehle-bhi.mp3",
-              "img": "https://www.pagalworld.com.sb/siteuploads/thumb/sft143/71229_4.jpg",
-              "duration": "2:50",
-              "name": "Pehle Bhi Main - Animal"
+              "url": "/MelodifyPlaylist/playlistSongs/pushpa.mp3",
+              "img": "https://pagalnew.com/coverimages/pushpa-pushpa-pushpa-2-the-rule-500-500.jpg",
+              "duration": "4:16",
+              "name": "Pushpa Pushpa - Pushpa 2 The Rule"
             },
+          
             {
               "url": "/MelodifyPlaylist/playlistSongs/gulabi-sadi.mp3",
               "img": "https://www.pagalworld.com.sb/siteuploads/thumb/sft142/70998_4.jpg",
@@ -43,13 +44,6 @@
               "img": "https://cdn.pixabay.com/audio/2023/11/16/02-22-40-22_200x200.png",
               "duration": "0:30",
               "name": "Abrars Entry - Jamal Kudu.mp3"
-            },
-
-            {
-              "url": "/MelodifyPlaylist/playlistSongs/cinematic-chillhop-main.mp3",
-              "img": "https://cdn.pixabay.com/audio/2024/03/04/19-01-06-288_200x200.jpeg",
-              "duration": "3:03",
-              "name": "Cinematic Chillhop"
             },
             {
               "url": "/MelodifyPlaylist/playlistSongs/summernight.mp3 ",
@@ -119,16 +113,16 @@
           ],
           "music": [
             {
-              "url": "/MelodifyPlaylist/playlistSongs/summernight.mp3 ",
+              "url": "/MelodifyPlaylist/playlistSongs/rangisari.mp3 ",
               "img": "https://cdn.pixabay.com/audio/2024/04/28/08-44-21-807_200x200.png",
               "duration": "2:24",
-              "name": "Summer Night"
+              "name": "Rangisari - Jugjugg Jeeyo"
             },
             {
-              "url": "/MelodifyPlaylist/playlistSongs/forest-guitar.mp3",
-              "img": "https://cdn.pixabay.com/audio/2023/08/06/20-12-59-55_200x200.png",
-              "duration": "0:30",
-              "name": "Forest Guitar"
+              "url": "/MelodifyPlaylist/playlistSongs/pehle-bhi.mp3",
+              "img": "https://www.pagalworld.com.sb/siteuploads/thumb/sft143/71229_4.jpg",
+              "duration": "2:50",
+              "name": "Pehle Bhi Main - Animal"
             },
             {
               "url": "/MelodifyPlaylist/playlistSongs/spirit-blossom.mp3 ",
