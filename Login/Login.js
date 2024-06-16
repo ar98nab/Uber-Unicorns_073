@@ -1,6 +1,5 @@
 let form = document.querySelector(".form")
 
-
 async function handleform(event) {
   event.preventDefault()
   let email = event.target[0].value;
@@ -10,15 +9,30 @@ async function handleform(event) {
     password
   }
   try {
-    let await fetch("")
-     
-     let token=await usercredentials.json()
-
+    let alldata= await fetch("  http://localhost:3000/user")
+     let token=await alldata.json()
+    //  console.log(token)
+      let narr=token.filter((ele)=>{
+        return (ele.email===usercredentials.email && ele.password===usercredentials.password)
+      })
+      showdata(narr)
   }
   catch (error) {
     alert("error")
   }
 }
+
+function showdata(arr){
+  if(arr.length!=0){
+    window.location.href="/Melodify.html"
+  }
+  else{
+    alert("Please Signup")
+  }
+}
+
+
 form.addEventListener("submit", (event) => {
   handleform(event)
 })
+
