@@ -5,7 +5,14 @@ body {
     color: white;
 
 }
-
+.Signup{
+    color: #666666;
+    background-color: #101010;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border: none;
+    font-weight: bolder; 
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -141,4 +148,7 @@ float: left;
 
 .business-technology {
     background-color: #16a085;
+}
+.krcr{
+    margin-top: 10px;
 }
