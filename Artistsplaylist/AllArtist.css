@@ -5,6 +5,8 @@
   /* width: 75vw; */
 
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .main h6 a {
   /* width: 300px; */
@@ -29,6 +31,7 @@
   height: auto;
   flex-wrap: wrap;
   margin: 0;
+  gap: 15px;
 }
 
 .artist {
