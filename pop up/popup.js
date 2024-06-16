@@ -1,7 +1,7 @@
 let signup=document.querySelector("button")
 
 signup.addEventListener("click",function(){
-    window.location.href="Signup/Signup.html"
+    window.location.href="/Signup/Signup.html"
 })
 
 

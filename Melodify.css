@@ -38,19 +38,21 @@
     gap: 20px;
 }
 
-.Signup {
-    color: #656565;
+.Signup{
+    color: #666666;
     background-color: #101010;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     border: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .login {
     width: 8%;
     padding: 5px;
     border-radius: 80px;
+    margin-right: 10px;
+    box-sizing: border-box;
 }
 
 
