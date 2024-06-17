@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         return songSelect;
     };
-  
+
     const addSongInput = () => {
         const newSongInput = document.createElement('div');
         newSongInput.classList.add('krsong-input');
@@ -44,18 +44,19 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   
     let songCount = 1;
-  
+ 
     addSongButton.addEventListener('click', () => {
         songCount++;
         addSongInput();
     });
   
+   
     closeModalElements.forEach(el => {
         el.addEventListener('click', () => {
             modal.style.display = 'none';
         });
     });
-  
+
     document.getElementById('krcreatePlaylistForm').addEventListener('submit', (e) => {
         e.preventDefault();
   
@@ -98,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
   
+ 
     document.getElementById('krr-create-playlist').addEventListener('click', () => {
         modal.style.display = 'block';
     });
@@ -116,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         playlistContainer.appendChild(songItem);
     };
   
+    
     addSongToLeftBox(songs[0]);
   });
   
