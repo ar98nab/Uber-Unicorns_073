@@ -57,5 +57,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 let logout=document.querySelector(".log-in-btn")
 logout.addEventListener("click",function(){
-    window.location.href="/Melodify_landingpage.html"
+    window.location.href="/index.html"
 })

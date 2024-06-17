@@ -1,7 +1,7 @@
 //Arnab
 let logout=document.querySelector(".logoutjs")
 logout.addEventListener("click",function(){
-    window.location.href="/Melodify_landingpage.html"
+    window.location.href="/index.html"
 })
 
 

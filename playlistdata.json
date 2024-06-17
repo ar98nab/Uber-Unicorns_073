@@ -992,6 +992,26 @@
       "month": "June",
       "date": "02",
       "gender": "Man"
+    },
+    {
+      "email": "adutta441@gmail.com",
+      "password": "arnabdutta9898",
+      "name": "Arnab Dutta",
+      "year": "2000",
+      "month": "January",
+      "date": "20",
+      "gender": "Man",
+      "id": "JaB7OBv"
+    },
+    {
+      "email": "rama123@gmail.com",
+      "password": "1234567890a",
+      "name": "Arnab Dutta",
+      "year": "2000",
+      "month": "January",
+      "date": "22",
+      "gender": "Man",
+      "id": "-laBNf-"
     }
   ]
 }
