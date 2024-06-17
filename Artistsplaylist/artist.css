@@ -16,25 +16,7 @@
   padding-right: 20px;
 }
 
-.container {
-  min-height: 70vh;
-  background-image: linear-gradient(to bottom, #1d1d1d, #33333378);
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  display: flex;
-  margin: 25px auto;
-  width: 70%;
-  border-radius: 12px;
-  padding: 25px;
-  background-image: url("Background_Image.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: auto;
-  height: auto;
-}
+
 
 .background {
   background-image: linear-gradient(to bottom, #1d1d1d, #333333);
@@ -52,6 +34,7 @@
   align-items: center;
   flex-direction: column;
   border-top: 5px solid rgba(46, 124, 46, 0.797);
+  padding-top: 15px;
 }
 
 .icons {
@@ -81,7 +64,7 @@
   color: gray;
 }
 
- h1 {
+h1 {
   padding-left: 25px;
   /* background: linear-gradient(to bottom, red, rgba(255, 0, 0, 0.297)); */
   -webkit-background-clip: text;
@@ -91,12 +74,11 @@
   font-weight: bold;
   background: linear-gradient(135deg, #57f173dd, #044920);
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-    font-size: 4em !important;
+  font-size: 4em !important;
 }
-
 
 .songItem {
   /* padding: 10px; */
@@ -107,6 +89,8 @@
   justify-content: start;
   align-items: center;
   border-radius: 35px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .songItem:hover {
@@ -144,7 +128,7 @@
   margin-right: 10px;
 }
 
-body{
+body {
   overflow-y: hidden;
 }
 
@@ -152,11 +136,11 @@ body{
   overflow-y: scroll;
   height: 100%;
   padding: 0% 5% 20%;
+  padding-bottom: 275px;
 }
 .bottom{
 /* height: 15vh; */
 }
-
 
 @media only screen and (max-width: 1100px) {
   body {
@@ -220,3 +204,6 @@ p {
   background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
   border-radius: 10px;
 }
+
+
+
