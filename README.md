@@ -73,7 +73,7 @@ Our Spotify Clone addresses several user needs and industry challenges:
 
   ## Deplolyed App
 
-  Frontend:
+  Frontend: https://uber-unicorns073-melodify.netlify.app/
 
 
 
@@ -118,8 +118,7 @@ Melodify/
 
 ## Video Walkthrough of the project
 
-
-## Video Walkthrough of the codebase
+https://youtu.be/CelfyD7y_C0?si=XynYZ--w8-blQaf6
 
 
 
