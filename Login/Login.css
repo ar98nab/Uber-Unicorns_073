@@ -9,6 +9,9 @@ body{
     color: white;
     background-color:#000000;
 }
+#checkar{
+    padding-left: 10px;
+}
 .arimg{
    display: flex;
    justify-content: center;
@@ -182,6 +185,9 @@ body{
         text-decoration: underline;
         color: white;
     }
+    #checkar{
+        padding-left: 10px;
+    }
     .arlast{
         text-align: center;
         padding: 40px;
@@ -203,6 +209,9 @@ body{
     .arimg{
        display: flex;
        justify-content: center;
+    }
+    #checkar{
+        padding-left: 10px;
     }
     #arimage{
           width: 10%;
@@ -298,6 +307,9 @@ body{
     .arimg{
        display: flex;
        justify-content: center;
+    }
+    #checkar{
+        padding-left: 10px;
     }
     #arimage{
           width: 10%;
@@ -403,6 +415,9 @@ body{
         font-family:Arial, Helvetica, sans-serif;
         text-align: center;
         font-weight: bolder;
+    }
+    #checkar{
+        padding-left: 10px;
     }
     .arbutton{
         display: flex;

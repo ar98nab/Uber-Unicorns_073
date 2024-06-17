@@ -24,7 +24,7 @@ async function handleform(event) {
 
 function showdata(arr){
   if(arr.length!=0){
-    window.location.href="/Melodify.html"
+    window.location.href="/Melodifylogin/Melodify.html"
   }
   else{
     alert("Wrong Credentials")
@@ -35,4 +35,14 @@ function showdata(arr){
 form.addEventListener("submit", (event) => {
   handleform(event)
 })
+let password = document.querySelector("#arpassword");
 
+let togglePassword=document.querySelector("#togglePassword")
+
+togglePassword.addEventListener("change", function() {
+  if (togglePassword.checked) {
+      password.setAttribute("type", "text");
+  } else {
+      password.setAttribute("type", "password");
+  }
+});

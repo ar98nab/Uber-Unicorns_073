@@ -1,6 +1,5 @@
 # Uber-Unicorns_073
 
-
 ## Introduction  -
 
    Our project is a Spotify Clone, designed to emulate the core functionalities of Spotify, a popular music streaming service. The primary aim of this project is to provide users with a seamless and engaging platform to stream music, create and manage playlists, discover new songs and artists, and enjoy a personalized listening experience.
@@ -37,7 +36,8 @@
    a.Intuitive and user-friendly interface designed for ease of use.
    b.Responsive design that works across various devices including desktops, tablets, and smartphones.
 
-Problems Solved
+Problems Solved:
+
 Our Spotify Clone addresses several user needs and industry challenges:
 
 
@@ -68,20 +68,51 @@ Our Spotify Clone addresses several user needs and industry challenges:
 
 
   ## Project Type
-    Fullstack
+    Frontend
 
 
   ## Deplolyed App
 
+  Frontend:
 
 
 
 
   ## Directory Structure
-my-app/
-├─ backend/
-├─ frontend/
-│  ├─ ...
+Melodify/
+├── mock-backend/
+│   ├── db.json
+│   ├── server.js
+│   └── README.md
+├── frontend/
+│   ├── User/
+│   │   ├── Melodify.html
+│   │   ├──Melodify.css
+│   │   ├──Melodify.js
+│   │   └── playlistdata.json
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── images/
+│   │   │   └── styles/
+│   │   │       ├──Melodify.css
+│   │   │       └── Bootstrap
+│   │   ├── components/
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   ├── SignUp.js
+│   │   │   │   └── Profile.js
+│   │   │   ├── Music/
+│   │   │   │   ├── MusicPlayer.js
+│   │   │   │   ├── Playlist.js
+│   │   │   │   ├── SongItem.js
+│   │   │   │   └── Library.js
+│   │   │   ├── Search/
+│   │   │   │   ├── SearchBar.js
+│   │   │   │   └── SearchResults.js
+│   │   │   ├── UI/
+│   │   │   │   ├── Footer.js
+│   │   │   │   └── Sidebar.js
+
 
 
 
@@ -95,13 +126,10 @@ my-app/
 ## Features
 List out the key features of our project.
 
-- Music Streaming
-- Playlists and Library Management
 - User Authentication and Profiles
-
-
-## design decisions or assumptions
-List your design desissions & assumptions
+- Playlists and Library Management
+- Music Streaming
+- User friendly environment
 
 
 ## Usage
@@ -131,7 +159,11 @@ List your design desissions & assumptions
 ## Credentials
 Provide user credentials for autheticated pages
 
+Users can create their own account and access all features.
+
+
 ## APIs Used
+we have used fetch api.
 http://localhost:3000/user
 http://localhost:3000/playlist
 
@@ -140,11 +172,11 @@ http://localhost:3000/playlist
 In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
 GET /api/items - retrieve all items
 POST /api/items - create a new item
-
+PATCH/api/items - Update an existing Item
 
 ## Technology Stack
 
-- bootstrap
-- html
-- css
-- js
+- Bootstrap
+- HTML5
+- CSS
+- JS
