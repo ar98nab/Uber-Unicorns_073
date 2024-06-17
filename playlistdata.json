@@ -960,7 +960,7 @@
   },
   "user": [
     {
-      "id": 1,
+      "id": "1",
       "email": "omshre06@gmail.com",
       "password": "Arnab1234",
       "name": "om shrestha",
@@ -968,7 +968,7 @@
       "gender": "male"
     },
     {
-      "id": 2,
+      "id": "2",
       "email": "rakeah33@gmail.com",
       "password": "rakesh33@",
       "name": "Rakesh Roshan",
@@ -976,12 +976,22 @@
       "gender": "male"
     },
     {
-      "id": 3,
+      "id": "3",
       "email": "punam10@gmail.com",
       "password": "punam234@",
       "name": "punam tripathi",
       "DOB": "2003-01-10",
       "gender": "female"
+    },
+    {
+      "id": "4363",
+      "email": "sagarrathod050@gmail.com",
+      "password": "Sagar@7568",
+      "name": "Sagar Annarao Rathod",
+      "year": "1996",
+      "month": "June",
+      "date": "02",
+      "gender": "Man"
     }
   ]
 }
