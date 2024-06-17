@@ -1,12 +1,13 @@
 //Arnab
 let loginbutton = document.querySelector(".login")
 loginbutton.addEventListener("click", function () {
-    window.location.href = "Login/Login.html"
+    window.location.href = "/Login/Login.html"
 })
+
 //Om
 let signupbutton = document.querySelector(".Signup")
 signupbutton.addEventListener("click", function () {
-    window.location.href = "Signup/Signup.html"
+    window.location.href="/Signup/Signup.html"
 })
 // Krushna
 
@@ -15,7 +16,15 @@ let searchbar = document.getElementById('searchh');
 searchbar.addEventListener('click', function () {
     window.location.href = "searchbar_in_sidebar/sidebarsearchbar.html";
 });
-
+document.addEventListener('DOMContentLoaded', () => {
+    const createPlaylistBtn = document.getElementById('krcr');
+  
+    
+    createPlaylistBtn.addEventListener('click', () => {
+      alert('Log in to create and share playlists.');
+    });
+  });
+  
 // Sagar
 
 // Ritika

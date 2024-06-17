@@ -27,7 +27,7 @@ function showdata(arr){
     window.location.href="/Uber-Unicorns_073/Melodify.html"
   }
   else{
-    alert("Please Signup")
+    alert("Wrong Credentials")
   }
 }
 
