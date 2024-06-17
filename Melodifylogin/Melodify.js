@@ -12,14 +12,13 @@ let searchbar = document.getElementById('searchh');
 searchbar.addEventListener('click', function () {
     window.location.href = "searchbar_in_sidebar/sidebarsearchbar.html";
 });
-document.addEventListener('DOMContentLoaded', () => {
-    const createPlaylistBtn = document.getElementsByClassName('kr');
+
+    let createPlaylistBtn = document.querySelector('.krmore');
   
-    
     createPlaylistBtn.addEventListener('click', () => {
       window.location.href="/krplaylist/krplaylist.html"
     });
-  });
+  
   
 // Sagar
 
