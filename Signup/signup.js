@@ -141,3 +141,10 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 });
+
+let signupbut=document.querySelector("#Signupbut");
+
+signupbut.addEventListener("click",()=>{
+  alert("Thank You for Sign Up")
+  window.location.href="/Melodify_landingpage.html"
+})

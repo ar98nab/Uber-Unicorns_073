@@ -1,14 +1,10 @@
 //Arnab
-let loginbutton = document.querySelector(".login")
-loginbutton.addEventListener("click", function () {
-    window.location.href = "/Login/Login.html"
+let logout=document.querySelector(".logoutjs")
+logout.addEventListener("click",function(){
+    window.location.href="/Melodify_landingpage.html"
 })
 
-//Om
-let signupbutton = document.querySelector(".Signup")
-signupbutton.addEventListener("click", function () {
-    window.location.href="/Signup/Signup.html"
-})
+
 // Krushna
 
 let searchbar = document.getElementById('searchh');
@@ -17,11 +13,11 @@ searchbar.addEventListener('click', function () {
     window.location.href = "searchbar_in_sidebar/sidebarsearchbar.html";
 });
 document.addEventListener('DOMContentLoaded', () => {
-    const createPlaylistBtn = document.getElementById('krcr');
+    const createPlaylistBtn = document.getElementsByClassName('kr');
   
     
     createPlaylistBtn.addEventListener('click', () => {
-      alert('Log in to create and share playlists.');
+      window.location.href="/krplaylist/krplaylist.html"
     });
   });
   
@@ -32,14 +28,6 @@ let container = document.querySelector(".playlist");
 let loadData;
 
 let getdata = async () => {
-    // const url = 'https://spotify-scraper.p.rapidapi.com/v1/home/section?sectionId=0JQ5DAuChZYPe9iDhh2mJz';
-    // const options = {
-    //     method: 'GET',
-    //     headers: {
-    //         'x-rapidapi-key': 'e9511bb0bbmsh56bfe3b24dca840p12de92jsne0ef745b5b8e',
-    //         'x-rapidapi-host': 'spotify-scraper.p.rapidapi.com'
-    //     }
-    // };
 
     try {
         const response = await fetch(`http://localhost:3000/playlist`);
@@ -61,12 +49,13 @@ let showData = async (arr) => {
         let card = document.createElement("div");
         card.classList.add("card");
 
-        let name = document.createElement("h5");
+        let name = document.createElement("h6");
         name.innerHTML = ele.name;
         name.classList.add("text-white")
 
         let description = document.createElement("p");
         description.innerHTML = ele.description;
+        description.textContent = ele.description.slice(0, 40) + '...';
         description.classList.add("text-white-50")
         description.classList.add("p-0")
 
@@ -94,10 +83,4 @@ function   redirectToPlaylist (playlistName) {
     window.location.href = `MelodifyPlaylist/playlist.html?name=${encodeURIComponent(playlistName)}`;
 }
 
-// let showall = document.querySelector("#showall");
-// showall.addEventListener("click", redirectToPlaylist)
-
-
-
-// export { getdata };
 getdata();

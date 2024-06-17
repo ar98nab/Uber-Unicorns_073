@@ -7,5 +7,5 @@ signup.addEventListener("click",function(){
 
     let closed=document.querySelector(".close")
    closed.addEventListener("click",function(){
-    window.location.href="/Melodify.html"
+    window.location.href="/Melodify_landingpage.html"
    })

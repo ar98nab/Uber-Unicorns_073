@@ -34,3 +34,14 @@ async function handleform(event) {
 form.addEventListener("submit", (event) => {
     handleform(event)
 })
+let password = document.querySelector("#aremail");
+
+let togglePassword=document.querySelector("#togglePassword")
+
+togglePassword.addEventListener("change", function() {
+  if (togglePassword.checked) {
+      password.setAttribute("type", "text");
+  } else {
+      password.setAttribute("type", "password");
+  }
+});

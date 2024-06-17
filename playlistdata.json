@@ -382,7 +382,16 @@
       "name": "punam tripathi",
       "DOB": "2003-01-10",
       "gender": "female"
+    },
+    {
+      "email": "adutta441@gmail.com",
+      "password": "arnabdutta",
+      "name": "Arnab Dutta",
+      "year": "2000",
+      "month": "January",
+      "date": "01",
+      "gender": "Man",
+      "id": 4
     }
-    
   ]
 }
