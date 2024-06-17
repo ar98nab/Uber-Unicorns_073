@@ -16,7 +16,7 @@
   padding-right: 20px;
 }
 
-.container {
+/* .container {
   min-height: 70vh;
   background-image: linear-gradient(to bottom, #1d1d1d, #33333378);
   color: white;
@@ -34,7 +34,7 @@
   background-position: center;
   width: auto;
   height: auto;
-}
+} */
 
 .background {
   background-image: linear-gradient(to bottom, #1d1d1d, #333333);

@@ -80,7 +80,7 @@ let showData = async (arr) => {
 }
 
 function   redirectToPlaylist (playlistName) {
-    window.location.href = `MelodifyPlaylist/playlist.html?name=${encodeURIComponent(playlistName)}`;
+    window.location.href = `/MelodifyPlaylist/playlist.html?name=${encodeURIComponent(playlistName)}`;
 }
 
 getdata();

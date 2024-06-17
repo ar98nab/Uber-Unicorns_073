@@ -10,7 +10,7 @@ loginbutton.addEventListener("click", function () {
 })
 
 //Om
-let signupbutton=document.querySelector(".Sign")
+let signupbutton=document.querySelector(".Signar")
 signupbutton.addEventListener("click",function(){
     window.location.href="/Signup/Signup.html"
 })
@@ -72,7 +72,7 @@ let showData = async (arr) => {
 }
 
 function   redirectToPlaylist (playlistName) {
-    window.location.href = `MelodifyPlaylist/playlist.html?name=${encodeURIComponent(playlistName)}`;
+    window.location.href = `/pop up/popup.html`;
 }
 
 getdata();
