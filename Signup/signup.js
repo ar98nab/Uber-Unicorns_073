@@ -141,3 +141,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 });
+
+let signupbut=document.querySelector("#Signupbut");
+
+signupbut.addEventListener("click",()=>{
+  window.location.href="/Uber-Unicorns_073/Melodify.html"
+})
