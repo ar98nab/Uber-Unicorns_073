@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Melodify - Popular Artists</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+
+
+  <link rel="stylesheet" href="AllRedio.css" />
+  <link rel="stylesheet" href="/Melodifylogin/Melodify.css" />
+  <link rel="stylesheet" href="/Artistsplaylist/AllArtist.css">
+  <link rel="stylesheet" href="/utility.css" />
+  <style>
+    .playlistContainer {
+      margin-top: 0;
+      /* padding-top: 2%; */
+    }
+
+    h6 {
+      margin: 0;
+      padding: 0;
+    }
+
+    h6>a {
+      width: 175px;
+      padding-left: 20px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      color: white;
+      cursor: pointer;
+    }
+
+    h3 {
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+      background: linear-gradient(135deg, #57f173dd, #044920);
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 3em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="universal_container">
+    <!-- krushna -->
+
+    <div class="left">
+        <div class="container flex bgg-black" >
+          <div class="left " >
+            <div class="home bgg-grey roundedd mm-1">
+              <div class="logo "><img src="/images/logo.png" alt="" width="200px" /></div>
+              <ul>
+                <a href="" class="arhomeone"><img class="invertt" src="/images/home.svg" alt="home" />Home</a>
+              <a href="/searchbar_in_sidebar/sidebarsearchbar.html" class="arhomeone"><img class="invertt " src="/images/search.svg" alt="home" /><button id="searchh" class="Signup">Search</button></a>
+              </ul>
+            </div>
+            <div class="librarykr  roundedd pp-1">
+              <div class="your-lab">
+                <div class="heading">
+                  <img class="invertt itemss-center" src="/images/playlist.svg" alt="" />
+                 <div class="lib"> <h4 >Your library</h4><h4>+</h4></div>
+                </div>
+                <div class="after-playlist">
+                  <div class="sidebar-scroll ">
+                    <div class="create-playlist ">
+                      <h4 class="pp-1">Create your first playlist</h4>
+                      <p class="pp-1">it's easy,we'll help you</p>
+                      <button class="buttoneng kr" id="krcr">Create playlist</button>
+                    </div>
+                 
+                    <div class="create-playlist">
+                      <h4 class="pp-1">Let's find some podcasts to follow</h4>
+                      <p class="pp-1">We'll keep you updated on new episodes</p>
+                      <button class="buttoneng">Browse podcasts</button>
+                    </div>
+                  </div>
+                
+                <div class="footerkr">
+                  <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp;
+                        Privacy Center</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy
+                        Policy</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                  </div>
+                  <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About
+                        Ads</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                  </div>
+                  <div><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"><span
+                        class="encore-text encore-text-marginal">Cookies</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="englis">
+              <button class="bg-black buttoneng ">
+                <span id="english"><img src="/images/english.svg" class="invertt" alt=""> </span>
+                <span class="eng text-white pp-1 ">English</span>
+              </button>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+    
+    <div class="right bg-black bg-gradient">
+      <div class="d-flex background-clr align-items-center justify-content-between ">
+        <h3 class="text-light ps-4 pt-3 fw-semibold w-full w-100">
+          Popular Radio
+        </h3>
+
+        <div id="navbar">
+          <h6 class="d-flex align-items-center">
+            <a href="/Melodifylogin/Melodify.html"><span class="material-symbols-outlined">
+                arrow_circle_left </span>Back to Home</a>
+          </h6>
+        </div>
+      </div>
+
+
+
+      <section class="playlistContainer bg-black bg-gradient">
+        <div class="container-lg">
+          <div class="artist-container d-flex justify-content-evenly">
+
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d0000b2736404721c1943d5069f0805f3" alt="" />
+                <h5 class="text-white">Ashique 2</h5>
+                <p class="text-white-50 p-0 pb-2">Mithoon, Ankit Tiwari</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e02b0f9ceb59927ab76fe6269be" alt="" />
+                <h5 class="text-white">Aadhuri Kahani</h5>
+                <p class="text-white-50 p-0 pb-2">Mithoon, Ankit Tiwari</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e02ba03ff79dad25f7c3542382f" alt="" />
+                <h5 class="text-white">Kabir Singh</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="" />
+                <h5 class="text-white">Love Hotel</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67656300005f1f36dbb0b2d65004488fcc322f" alt="" />
+                <h5 class="text-white">Mahabharat</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e02c3be0e4563f5564640effc13" alt="" />
+                <h5 class="text-white">Dekhu Yannu</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67706f0000000211775abc2b5c8bb6cf80234d" alt="" />
+                <h5 class="text-white">New Joints</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e02c5545f737b16ad5ee767b62a" alt="" />
+                <h5 class="text-white">Kabir Singh</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="" />
+                <h5 class="text-white">Mose Tape</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67706f00000002a3993dd56708b807dacfed84" alt="" />
+                <h5 class="text-white">All New Danse</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e022432edc97b465e6db54d356b" alt="" />
+                <h5 class="text-white">Murder 2</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e02021d7017f73387b008eab271" alt="" />
+                <h5 class="text-white">Animal</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e0252fe6875028c892308ffc2f7" alt="" />
+                <h5 class="text-white">Jab we met</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" alt="" />
+                <h5 class="text-white">Love Hotel</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="./RedioMusic.html">
+              <div class="artist">
+                <img class="artist_img" src="https://i.scdn.co/image/ab67616d00001e027eb29e15e05e9b058c5cc81e" alt="" />
+                <h5 class="text-white">Crew</h5>
+                <p class="text-white-50 p-0 pb-2">Leftovermax</p>
+                <div class="playBtn">
+                  <img src="https://freepngimg.com/download/icon/video/7410-play-button-green.png" alt="" />
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section class="footerx bg-black">
+        <div class="justify-content-between d-flex flex-wrap w-100 border-bottom border-secondary">
+          <div class="box d-flex flex-wrap justify-content-between w-75">
+            <div class="li-a">
+              <h4>Company</h4>
+
+              <a href="">
+                <p>About</p>
+              </a>
+              <a href="#">
+                <p>Jobs</p>
+              </a>
+              <a href="#">
+                <p>For the Record</p>
+              </a>
+            </div>
+            <div class="li-a">
+              <h4>Communities</h4>
+
+              <a href="#">
+                <p>For Artists</p>
+              </a>
+              <a href="#">
+                <p>Developers</p>
+              </a>
+              <a href="#">
+                <p>Advertising</p>
+              </a>
+              <a href="#">
+                <p>Investors</p>
+              </a>
+              <a href="#">
+                <p>Vendors</p>
+              </a>
+            </div>
+            <div class="li-a">
+              <h4>Useful links</h4>
+
+              <a href="#">
+                <p>Support</p>
+              </a>
+              <a href="#">
+                <p>Free Mobile App</p>
+              </a>
+            </div>
+            <div class="li-a">
+              <h4>Spotify Plans</h4>
+
+              <a href="#">
+                <p>Premium Individual</p>
+              </a>
+              <a href="#">
+                <p>Premium Duo</p>
+              </a>
+              <a href="#">
+                <p>Premium Family</p>
+              </a>
+              <a href="#">
+                <p>Premium Student</p>
+              </a>
+              <a href="#">
+                <p>Spotify Free</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="gap-3 d-flex">
+            <i class="social fab fa-instagram"></i>
+            <i class="social fab fa-twitter"></i>
+            <i class="social fab fa-facebook"></i>
+          </div>
+        </div>
+        <footer class="copyright">© 2024 Melodify Clone</footer>
+      </section>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/ee294c869f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

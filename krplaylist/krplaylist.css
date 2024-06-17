@@ -1,18 +1,22 @@
-/* Example styles for the music player */
-body{
+body {
     background-color: #1f1d1d;
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .krr-container {
     max-width: 800px;
     margin: 50px auto;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     background-color: black;
     color: #fefefe;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 2px 2px 10px 2px rgb(68, 60, 45);
 }
-
+.krr-container:hover{
+    max-width: 900px;
+    max-height: 500px;
+    margin: 80px auto;
+}
 
 .krr-header {
     display: flex;
@@ -24,6 +28,21 @@ body{
 .krr-logo {
     font-size: 24px;
     font-weight: bold;
+    color: #e0b040;
+}
+
+.krr-logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#krr-search {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    font-size: 16px;
 }
 
 .krr-main-content {
@@ -33,28 +52,80 @@ body{
 
 .krr-playlist-container {
     flex: 1;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(68, 60, 45);
 }
 
 .krr-playlist-title {
     margin-bottom: 10px;
+    font-size: 20px;
+    color: #fff;
 }
 
-.krr-player-container {
-    flex: 1;
+.krr-playlist-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    position: relative;
 }
 
-.krr-player-controls {
-    margin-bottom: 10px;
+.krr-playlist-item .krr-playlist-name {
+    font-weight: bold;
 }
 
-.krr-player-controls button {
-    font-size: 16px;
-    margin-right: 10px;
+.krr-playlist-item .delete-playlist-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.krr-song-info {
-    text-align: center;
-    margin-top: 20px;
+.krr-song-list {
+    margin: 10px 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.krr-song-list li {
+    margin: 5px 0;
+    font-size: 14px;
+    position: relative;
+}
+
+.krr-song-list .delete-song-btn {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #f0c14b;
+    color: #1f1d1d;
+    border: none;
+    border-radius: 20px;
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0b040;
+    width: 220px;
+    font-size: 20px;
+    height: 50px;
 }
 
 /* Modal styles */
@@ -67,20 +138,31 @@ body{
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.4s ease;
 }
 
 .krmodal-content {
     background-color: #5a5858;
-    margin: 19% auto;
+    margin: 10% auto;
     padding: 20px;
     border: 1px solid #eae8e8;
     width: 80%;
-    color: #aaa;
+    color: #fff;
     border-radius: 10px;
     box-shadow: 2px 2px 10px 2px rgb(68, 60, 45);
+    animation: slide-down 0.5s ease;
+}
 
-    
+@keyframes slide-down {
+    from {
+        transform: translateY(-500%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(50%);
+        opacity: 1;
+    }
 }
 
 .krclose {
@@ -92,14 +174,11 @@ body{
 
 .krclose:hover,
 .krclose:focus {
-    color: black;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
-button{
-    color: #1f1d1d;
-    border-radius: 50px;
-    width: 135px;
-    height: 35px;
-}
 
+.krsong-input {
+    margin-bottom: 10px;
+}

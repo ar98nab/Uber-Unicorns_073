@@ -9,9 +9,13 @@
 </head>
 <body>
     <div class="krr-container">
-        <img src="" alt="">
+        <img src="/images/logo.png " style="width: 400px;" alt="Logo" class="krr-logo-image">
+
         <header class="krr-header">
-            <div class="krr-logo">Music Player</div>
+            
+            <div class="krr-logo">
+                <span>Music Player</span>
+            </div>
             <input type="text" id="krr-search" placeholder="Search songs">
         </header>
         <div class="krr-main-content">
@@ -20,7 +24,6 @@
                 <ul id="krr-playlists"></ul>
                 <button id="krr-create-playlist">Create Playlist</button>
             </div>
-          
         </div>
     </div>
 
@@ -31,13 +34,19 @@
             <form id="krcreatePlaylistForm">
                 <label for="krplaylistName">Playlist Name:</label>
                 <input type="text" id="krplaylistName" name="krplaylistName" required />
-                <div id="krsongsContainer">
-                   
-                </div>
+                <div id="krsongsContainer"></div>
                 <button type="button" id="kraddSong">Add another song</button>
                 <button type="submit" class="krbtn-primary">Create</button>
                 <button type="button" class="krbtn-secondary krclose">Cancel</button>
             </form>
+        </div>
+    </div>
+
+    <div id="krplaylistPopupModal" class="krmodal">
+        <div class="krmodal-content">
+            <span class="krclose">&times;</span>
+            <h2 id="krplaylistPopupTitle"></h2>
+            <ul id="krplaylistPopupSongs"></ul>
         </div>
     </div>
 
