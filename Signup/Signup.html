@@ -17,6 +17,7 @@
         <img id="logo-om" src="./melodify.jpeg" alt="error" width="80px" height="80px" style="border-radius: 50%;">
     </header> 
     <br><br>
+  <form>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -26,7 +27,7 @@
         
                 
         
-                <form id="formdata">
+                
                     <label for="email">Email address</label><br>
                     <br>
                     <input id="email" type="email" placeholder="name@domen.com" required><br><br>
@@ -35,7 +36,7 @@
                     <br>
                 
            <br>
-                <button id="submitbut"   type="button" data-bs-target="#carouselExample" onclick="check()" data-bs-slide="next"><b>Next</b></button>
+                <button id="submitbut"   type="button" data-bs-target="#carouselExample"><b>Next</b></button>
                
                 <span class="visually-hidden">Previous</span>
                 <br><br>
@@ -52,37 +53,41 @@
         
              <br>
         
-             <p style=" color: rgb(167,167,167); text-align: center;">Already have an account? <a style="color: white;" href="">Log in here.</a></p>
+             <p style=" color: rgb(167,167,167); text-align: center;">Already have an account? <a style="color: white;" href="/Login/Login.html">Log in here.</a></p>
              <br>
         
              <p style="color:rgb(167,167,167) ; font-size: 12px; text-align: center;">This site is protected by reCAPTCHA and the Google
                 <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/privacy">Privacy Policy</a> and <a style="color:rgb(167,167,167) ;" href="https://policies.google.com/terms">Terms of Service </a>apply.</p>
             
+               
              </div>
         
           </div>
           <div class="carousel-item">
             <div class="slide">
-                <span id="prevgrid">
+                <span class="prevgrid">
+
                <button id="prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >&#10094</button>
                <span class="visually-hidden">Previous</span>
                <p>Step 1 of 3</p><br>
                <p>Create a password</p>
                  </span>
                  <br>
-           
+             
                  <label for="password">Password</label><br><br>
-                 <input id="password" type="password">
-           <br><br><br>
+                 <input id="password" type="password"><br><br>
+                 <input type="checkbox" id="togglePassword"> Show Password
+
+           <br><br>
                  <p>Your password must contain at least</p>
-                 <br>
-                 <input type="checkbox" id="check1"> <label for="check1">1 letter</label><br>
-                 <input type="checkbox" id="check2"> <label for="check2">1 number or special character (example: # ? !&)</label><br>
-                 <input type="checkbox" id="check3"> <label for="check3">10 characters</label><br><br>
+                 
+                 <svg width="12" height="12" ><circle id="svg1" cx="6" cy="6" r="6" stroke="white" /></svg> <label for="check1">1 letter</label><br>
+                 <svg width="12" height="12"><circle id="svg2" cx="6" cy="6" r="6" stroke="white" fill=""/></svg> <label for="check2">1 number or special character (example: # ? !&)</label><br>
+                 <svg width="12" height="12"><circle id="svg3" cx="6" cy="6" r="6" stroke="white" fill=""/></svg> <label for="check3">10 characters</label><br><br>
            
-                 <button id="submitbut2" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><b>Next</b></button>
+                 <button id="submitbut2" type="button" data-bs-target="#carouselExample"><b>Next</b></button>
                  <span class="visually-hidden">next</span>
-              
+             
            </div>
           </div>
 
@@ -96,6 +101,7 @@
                     <p>Tell us about yourself</p>
                       </span>
                       <br><br>
+                      
                
                 <label for="name"><b>Name</b></label><br>
                 <label style="color: rgb(167,167,167); font-size: 13px;" for="name" name="name">This name will appear on your profile</label><br><br>
@@ -137,9 +143,9 @@
                 </select>
             
                 <br><br>
-                <button id="submitbut3" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><b>Next</b></button>
+                <button id="submitbut3" type="button" data-bs-target="#carouselExample"><b>Next</b></button>
                 <span class="visually-hidden">next</span>
-                    </form>
+                    
             
             </div>
           </div>
@@ -151,17 +157,17 @@
                     <span class="visually-hidden">Previous</span>
                     <button id="prev3"  type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >&#10094</button>
                     <p>Step 3 of 3</p><br>
-                    <p>Terms & Conditions</p>
+                    <p>Terms And Conditions</p>
                       </span>
                       <br><br>
-            
-                      <div id="Tc">
+             
+                      <div class="Tc">
                  <input type="checkbox" id="c1">
                  <label for="c1"><b>I would prefer not to receive marketing messages from Spotify</b></label>
                       </div>
                       <br>
                       
-                      <div id="Tc">
+                      <div class="Tc">
                         <input type="checkbox" id="c2">
                         <label for="c1"><b>Share my registration data with Spotify's content providers for marketing purposes.</b></label>
                       </div>
@@ -169,16 +175,16 @@
                       <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="https://www.spotify.com/in-en/legal/privacy-policy/" style="color: rgb(30,215,96);">Spotify's Privacy Policy.</a></p>
                    
                          <br>
-                      <input type="submit" id="Signupbut"><b>Sign up</b></input>
+                      <input type="submit" id="Signupbut">
                       <br><br>
-            
+           
             </div>
           </div>
         </div>
         
        
       </div>
-      
+      </form>
 </body>
 </html>
 

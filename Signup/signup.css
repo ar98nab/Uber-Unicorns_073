@@ -159,7 +159,7 @@ header{
     cursor: pointer;
 }
 
-#prevgrid>p{
+.prevgrid>p{
     display: inline;
     position: relative;
     bottom: 15px;
@@ -167,7 +167,7 @@ header{
     
 }
 
-#prevgrid>p:nth-of-type(2){
+.prevgrid>p:nth-of-type(2){
     display: inline;
     position: relative;
     bottom: 18px;
@@ -176,7 +176,7 @@ header{
     
 }
 
-#prevgrid>p:nth-of-type(1){
+.prevgrid>p:nth-of-type(1){
     color: rgb(167,167,167);
     
 }
@@ -274,7 +274,7 @@ header{
     padding: 0px 12px;   
 }
 
-#Tc{
+.Tc{
    
     color:rgb(167,167,167) ;
     width: 324px;

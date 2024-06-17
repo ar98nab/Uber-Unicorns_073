@@ -101,7 +101,10 @@
           "name": "lofi beats",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn",
           "description": "chill beats, lofi vibes, new tracks every week... ",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -199,7 +202,10 @@
           "name": "Chillout Lounge",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWTvNyxOwkztu",
           "description": "Just lean back and enjoy relaxed beats.",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -292,7 +298,10 @@
           "name": "All Out 2020s",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX2M1RktxUUHG",
           "description": "The biggest songs of the 2020s. Cover: Doja Cat",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -390,7 +399,10 @@
           "name": "Jazz in the Background",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWV7EzJMK2FUI",
           "description": "Soft instrumental Jazz for all your activities.",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -482,7 +494,10 @@
           "name": "Chill Hits",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6",
           "description": "Kick back to the best new and recent chill hits.",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -574,7 +589,10 @@
           "name": "Peaceful Piano",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4sWSpwq3LiO",
           "description": "Peaceful piano to help you slow down, breathe, and relax. ",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -666,7 +684,10 @@
           "name": "Rock Classics",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U",
           "description": "Rock legends & epic songs that continue to inspire generations. Cover: The Rolling Stones",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -758,7 +779,10 @@
           "name": "Stress Relief",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWXe9gFZP0gtP",
           "description": "Calm your mind from anxiety with gentle piano and ambient music.",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {
@@ -850,7 +874,10 @@
           "name": "All Out 80s",
           "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4UtSsGT1Sbe",
           "description": "The biggest songs of the 1980s. Cover: Bruce Springsteen",
-          "owner": { "type": "user", "name": "Spotify" },
+          "owner": {
+            "type": "user",
+            "name": "Spotify"
+          },
           "images": [
             [
               {

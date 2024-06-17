@@ -16,7 +16,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0"
     />
-    <link rel="stylesheet" href="/Melodify.css" />
+    <link rel="stylesheet" href="/Melodifylogin/Melodify.css" />
     <link rel="stylesheet" href="/utility.css" />
     <link rel="stylesheet" href="/Artistsplaylist/artist.css" />
   </head>
@@ -44,107 +44,66 @@
       <!-- krushna -->
 
       <div class="left">
-        <div class="container flex bgg-black">
-          <div class="left">
+        <div class="container flex bgg-black" >
+          <div class="left " >
             <div class="home bgg-grey roundedd mm-1">
-              <div class="logo">
-                <img src="/images/logo.png" alt="" width="125px" />
-              </div>
+              <div class="logo "><img src="/images/logo.png" alt="" width="200px" /></div>
               <ul>
-                <li>
-                  <img class="invertt" src="/images/home.svg" alt="home" />Home
-                </li>
-                <li>
-                  <img
-                    class="invertt"
-                    src="/images/search.svg"
-                    alt="home"
-                  /><button id="searchh" class="buttoneng">Search</button>
-                </li>
+                <a href="" class="arhomeone"><img class="invertt" src="/images/home.svg" alt="home" />Home</a>
+              <a href="/searchbar_in_sidebar/sidebarsearchbar.html" class="arhomeone"><img class="invertt " src="/images/search.svg" alt="home" /><button id="searchh" class="Signup">Search</button></a>
               </ul>
             </div>
-            <div class="library roundedd pp-1">
+            <div class="librarykr  roundedd pp-1">
               <div class="your-lab">
                 <div class="heading">
-                  <img
-                    class="invertt items-center"
-                    src="/images/playlist.svg"
-                    alt=""
-                  />
-                  <h2>Your library</h2>
+                  <img class="invertt itemss-center" src="/images/playlist.svg" alt="" />
+                 <div class="lib"> <h4 >Your library</h4><h4>+</h4></div>
                 </div>
                 <div class="after-playlist">
-                  <div class="sidebar-scroll">
-                    <div class="create-playlist">
+                  <div class="sidebar-scroll ">
+                    <div class="create-playlist ">
                       <h4 class="pp-1">Create your first playlist</h4>
                       <p class="pp-1">it's easy,we'll help you</p>
-                      <button class="buttoneng">Create playlist</button>
+                      <button class="buttoneng kr" id="krcr">Create playlist</button>
                     </div>
+                 
                     <div class="create-playlist">
-                      <h4 class="pp-1">Create your first playlist</h4>
-                      <p class="pp-1">it's easy,we'll help you</p>
-                      <button class="buttoneng">Create playlist</button>
+                      <h4 class="pp-1">Let's find some podcasts to follow</h4>
+                      <p class="pp-1">We'll keep you updated on new episodes</p>
+                      <button class="buttoneng">Browse podcasts</button>
                     </div>
                   </div>
-                </div>
-                <div class="footer">
-                  <div>
-                    <a href="https://www.spotify.com/in-en/legal/"
-                      ><span>Legal</span></a
-                    >
+                
+                <div class="footerkr">
+                  <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp;
+                        Privacy Center</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy
+                        Policy</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
                   </div>
-                  <div>
-                    <a href="https://www.spotify.com/in-en/safetyandprivacy/"
-                      ><span>Safety &amp; Privacy Center</span></a
-                    >
+                  <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About
+                        Ads</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
                   </div>
-                  <div>
-                    <a
-                      href="https://www.spotify.com/in-en/legal/privacy-policy/"
-                      ><span>Privacy Policy</span></a
-                    >
-                  </div>
-                  <div>
-                    <a
-                      href="https://www.spotify.com/in-en/legal/cookies-policy/"
-                      ><span>Cookies</span></a
-                    >
-                  </div>
-                  <div>
-                    <a
-                      href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
-                      ><span>About Ads</span></a
-                    >
-                  </div>
-                  <div>
-                    <a href="https://www.spotify.com/in-en/accessibility/"
-                      ><span>Accessibility</span></a
-                    >
-                  </div>
-                  <div>
-                    <a
-                      href="https://www.spotify.com/legal/cookies-policy/"
-                      target="_blank"
-                      rel="noopener"
-                      ><span class="encore-text encore-text-marginal"
-                        >Cookies</span
-                      ></a
-                    >
+                  <div><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"><span
+                        class="encore-text encore-text-marginal">Cookies</span></a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="englis">
-              <button class="bg-black buttoneng">
-                <span
-                  ><img src="/images/english.svg" class="invert" alt="" />
-                </span>
-                <span class="eng text-white">English</span>
+              <button class="bg-black buttoneng ">
+                <span id="english"><img src="/images/english.svg" class="invertt" alt=""> </span>
+                <span class="eng text-white pp-1 ">English</span>
               </button>
             </div>
           </div>
+          
+        </div>
         </div>
       </div>
+    
       <div class="right bg-black bg-gradient">
         <div
           class="d-flex background-clr align-items-center justify-content-between"
@@ -152,9 +111,9 @@
           <h1 class="w-full" id="title">Popular Albums Song</h1>
 
           <!-- <h4 class=" px-3" id="title">Melodify Playlists</h4> -->
-          <div id="navbar">
+          <div>
             <h6 class="d-flex align-items-center">
-              <a href="/Melodify.html"
+              <a href="/Melodifylogin/Melodify.html"
                 ><span class="material-symbols-outlined">
                   arrow_circle_left </span
                 >Back to Albums</a

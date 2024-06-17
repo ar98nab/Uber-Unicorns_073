@@ -46,3 +46,16 @@ function displayResults(results) {
 
 const searchBar = document.querySelector('.search-bar');
 searchBar.addEventListener('input', debounce(handleSearch, 300));
+
+document.addEventListener('DOMContentLoaded', function() {
+   
+
+    const backButton = document.getElementById('krback');
+    backButton.addEventListener('click', function() {
+        window.location.href = './Melodify.html';
+    });
+});
+let logout=document.querySelector(".log-in-btn")
+logout.addEventListener("click",function(){
+    window.location.href="/Melodify_landingpage.html"
+})

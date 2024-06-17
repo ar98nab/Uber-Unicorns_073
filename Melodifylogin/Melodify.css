@@ -1,0 +1,516 @@
+/* Arnab */
+.universal_container {
+    width: 98vw;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.left {
+    width: 25vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: #121212;
+    margin: 5px;
+    position: fixed;
+}
+
+.right {
+    width: 70vw;
+    height: 98vh;
+    border-radius: 10px;
+    background-color: #1212;
+    margin: 5px;
+    position: absolute;
+    left: 25vw;
+}
+
+#navbar {
+    width: 100%;
+    height: 8vh;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+
+.Signup {
+    color: #666666;
+    background-color: #101010;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border: none;
+    font-weight: bolder;
+}
+.Signar{
+    color: #666666;
+    background-color: #101010;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border: none;
+    font-weight: bolder;
+}
+.login {
+    width: 80px;
+    padding: 5px;
+    border-radius: 80px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+
+/* krushna */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 1px;
+    margin-bottom: 0px;
+    padding: 1px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 350px;
+    background-color: #242424;
+    float: left;
+}
+
+.after-playlist {
+    height: 350px;
+
+}
+
+.left {
+    width: 350px;
+    padding: 0px;
+}
+.arhomeone{
+    color:white
+}
+.home ul .arhomeone {
+    display: flex;
+    gap: 15px;
+    width: 24px;
+    list-style: none;
+    padding-top: 14px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heading {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    list-style: none;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-right: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.your-lab {
+    color: #a7a7a7;
+    font-size: 12px;
+    padding: 0px 8px;
+    background-color: #141414;
+
+
+}
+
+.your-lab img {
+    gap: 10px;
+}
+
+.heading img {
+    width: 24px;
+
+}
+
+.home {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.footerkr {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 7px;
+    gap: 5px;
+    position: absolute;
+    bottom: 0;
+    margin: 25px 0px 20px 1px;
+    padding: 50px 20px;
+}
+
+.footerkr a {
+    text-decoration: none;
+    color: #a7a7a7;
+    margin: 6px;
+
+}
+
+.librarykr {
+    position: relative;
+
+}
+
+.heading::after {
+    float: right;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.lib{
+    display: flex;
+    gap:60px;
+}
+
+.create-playlist {
+    width: 268px;
+    color: #FFFFFF;
+    margin: 8px;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #242424;
+    box-sizing: border-box;
+
+
+}
+
+.create-playlist h4 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+
+.create-playlist p {
+    font-size: 13px;
+}
+
+.buttoneng {
+    color: black;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 142.5px;
+    height: 32px;
+    font-size: 13px;
+    margin: 10px 0px 0px 2px;
+    padding: 4px 16px;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.englis {
+    padding: 20px 30px;
+}
+
+#english {
+    padding: 5px;
+}
+
+/* Modal styles */
+.krmodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.krmodal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.krclose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.krclose:hover,
+.krclose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.englis button {
+    margin-left: 10px;
+    box-shadow: 0.2px 0.2px;
+}
+
+button img {
+    width: 16px;
+}
+
+.sidebar-scroll {
+    height: 200px;
+    overflow-y: auto;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+    background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+    background: transparent;
+    width: 10px;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb {
+    background: rgb(81, 80, 80);
+    width: 10px;
+}
+
+
+/* sagar */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.main {
+  background-color: #1d1d1d;
+  /* width: 75vw; */
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-right: 20px;
+}
+#sp a {
+  color: white !important;
+}
+#sp a:hover {
+  color: rgba(255, 255, 255, 0.479) !important;
+}
+.artist-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  flex-wrap: wrap;
+}
+.artist {
+  padding: 20px 20px 0px 20px;
+  width: auto;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+a,
+.artist h5,
+p {
+  font-size: medium;
+  padding: 0;
+  padding-top: 10px;
+  text-align: start;
+  text-decoration: none !important;
+}
+.artist p {
+  font-size: 12px;
+}
+.artist_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+.playBtn img {
+  position: absolute;
+  top: 125px;
+  right: 25px;
+  width: 50px;
+  border-radius: 50px;
+  visibility: hidden;
+  transform: translateY(5px);
+  transition: transform 0.1s ease, visibility 0.1s ease;
+}
+.artist:hover .playBtn img {
+  visibility: visible;
+  transform: translateY(-5px);
+  transition: transform 0.5s ease, visibility 0.5s ease;
+}
+.artist:hover {
+  background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
+  border-radius: 10px;
+}
+/* Ritika */
+
+.playlistContainer {
+  margin: 3% auto 3%;
+
+  .playlist {
+    margin-top: 1%;
+
+    .card {
+      width: min-content;
+      background-color: transparent; /* Fallback color */
+
+      padding: 15px;
+      img {
+        width: 150px;
+        border-radius: 10px;
+      }
+
+      p {
+        font-size: small;
+        font-family: Poppins;
+        color: rgb(181, 181, 181) !important;
+      }
+
+      h6 {
+        font-family: Poppins;
+        font-weight: bolder;
+        margin-top: 10px;
+        color: rgba(250, 248, 248, 0.874);
+      }
+
+      p {
+        color: rgb(181, 181, 181) !important;
+      }
+
+      h6 {
+        margin-top: 15px;
+        color: rgba(250, 248, 248, 0.874);
+      }
+    }
+
+    .playBtn img {
+      position: absolute;
+      top: 125px;
+      right: 25px;
+      width: 50px;
+      border-radius: 50px;
+      visibility: hidden;
+      transform: translateY(5px);
+      transition: transform 0.1s ease, visibility 0.1s ease;
+    }
+
+    .card:hover {
+      background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
+      border-radius: 10px;
+      cursor: pointer;
+
+      h6 {
+        text-decoration: underline;
+      }
+    }
+
+    .card:hover .playBtn img {
+      visibility: visible;
+      transform: translateY(-5px);
+      transition: transform 0.5s ease, visibility 0.5s ease;
+    }
+  }
+
+  .playBtn img {
+    position: absolute;
+    top: 150px;
+    right: 25px;
+    width: 50px;
+    border-radius: 50px;
+    visibility: hidden;
+    transform: translateY(5px);
+    transition: transform 0.1s ease, visibility 0.1s ease;
+  }
+
+  .card:hover {
+    background-color: #000000; /* Fallback color */
+    background-image: linear-gradient(
+      to bottom right,
+      #000000,
+      #333333
+    ); /* Gradient */
+    border-radius: 10px;
+  }
+
+  .card:hover .playBtn img {
+    visibility: visible;
+    transform: translateY(-5px);
+    transition: transform 0.5s ease, visibility 0.5s ease;
+  }
+}
+
+/* footer */
+
+.footerx {
+  /* width: 75vw; */
+  height: auto;
+  padding: 10px 30px 50px 30px;
+  color: white !important;
+  padding-top: 35px;
+
+  .box {
+    padding-bottom: 20px;
+  }
+  a {
+    color: rgb(181, 181, 181) !important;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+  .li-a a p {
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+  }
+
+  a,
+  h4,
+  p {
+    margin-bottom: 0 !important;
+  }
+  .social {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(128, 128, 128, 0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* gap: 30px; */
+  }
+  .social:hover {
+    background-color: rgba(128, 128, 128, 0.727);
+    cursor: pointer;
+  }
+  .copyright {
+    padding-top: 10px;
+    color: rgb(181, 181, 181) !important;
+  }
+}
