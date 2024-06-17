@@ -1,0 +1,16 @@
+{
+  "name": "uber-unicorns_073",
+  "version": "1.0.0",
+  "description": "Our project is a Spotify Clone, designed to emulate the core functionalities of Spotify, a popular music streaming service. The primary aim of this project is to provide users with a seamless and engaging platform to stream music, create and manage playlists, discover new songs and artists, and enjoy a personalized listening experience.",
+  "main": "Melodify_landingpage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
