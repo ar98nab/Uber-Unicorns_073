@@ -33,10 +33,12 @@
   align-items: center;
   flex-direction: column;
   border-top: 5px solid rgba(46, 124, 46, 0.797);
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
 }
 
 .icons {
-  margin-top: 15px;
+  padding-top: 50px;
   display: flex;
   gap: 30px;
 }
@@ -48,6 +50,7 @@
   width: 50vw;
   width: 50vw;
   cursor: pointer;
+  margin-top: 2%;
 }
 .songList h6 a {
   width: 175px;
@@ -126,8 +129,9 @@
 
 .songInfo {
   position: absolute;
-  left: 10vw;
+  /* left: 7vw; */
   font-family: "Poppins", sans-serif;
+
 }
 
 .songInfo img {

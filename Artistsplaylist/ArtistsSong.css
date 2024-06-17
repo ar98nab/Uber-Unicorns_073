@@ -35,6 +35,10 @@
   width: auto;
   height: auto;
 }
+#masterSongName{
+  margin: 0px;
+  padding: 0px;
+}
 
 .background {
   background-image: linear-gradient(to bottom, #1d1d1d, #333333);
