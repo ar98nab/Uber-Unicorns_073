@@ -27,13 +27,21 @@
 }
 
 #navbar {
+  position: sticky;
+  top: 0px;
+
+  z-index: 2;
   width: 100%;
   height: 8vh;
-  background-color: #101010;
+  background-color: #101010fc;
   display: flex;
   align-items: center;
   justify-content: right;
   gap: 20px;
+}
+
+.background-clr {
+  background-color: #101010fc;
 }
 
 .Signup {
@@ -312,6 +320,19 @@ p {
       }
 
       p {
+        font-size: small;
+        font-family: Poppins;
+        color: rgb(181, 181, 181) !important;
+      }
+
+      h6 {
+        font-family: Poppins;
+        font-weight: bolder;
+        margin-top: 10px;
+        color: rgba(250, 248, 248, 0.874);
+      }
+
+      p {
         color: rgb(181, 181, 181) !important;
       }
 
@@ -323,7 +344,7 @@ p {
 
     .playBtn img {
       position: absolute;
-      top: 150px;
+      top: 125px;
       right: 25px;
       width: 50px;
       border-radius: 50px;
@@ -333,13 +354,13 @@ p {
     }
 
     .card:hover {
-      background-color: #000000; /* Fallback color */
-      background-image: linear-gradient(
-        to bottom right,
-        #000000,
-        #333333
-      ); /* Gradient */
+      background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
       border-radius: 10px;
+      cursor: pointer;
+
+      h6 {
+        text-decoration: underline;
+      }
     }
 
     .card:hover .playBtn img {
@@ -347,6 +368,33 @@ p {
       transform: translateY(-5px);
       transition: transform 0.5s ease, visibility 0.5s ease;
     }
+  }
+
+  .playBtn img {
+    position: absolute;
+    top: 150px;
+    right: 25px;
+    width: 50px;
+    border-radius: 50px;
+    visibility: hidden;
+    transform: translateY(5px);
+    transition: transform 0.1s ease, visibility 0.1s ease;
+  }
+
+  .card:hover {
+    background-color: #000000; /* Fallback color */
+    background-image: linear-gradient(
+      to bottom right,
+      #000000,
+      #333333
+    ); /* Gradient */
+    border-radius: 10px;
+  }
+
+  .card:hover .playBtn img {
+    visibility: visible;
+    transform: translateY(-5px);
+    transition: transform 0.5s ease, visibility 0.5s ease;
   }
 }
 

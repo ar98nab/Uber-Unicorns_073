@@ -51,7 +51,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-top: 5px solid red;
+  border-top: 5px solid rgba(46, 124, 46, 0.797);
 }
 
 .icons {
@@ -64,7 +64,7 @@
 }
 
 #myProgressBar {
-  width: 80vw;
+  width: 50vw;
   cursor: pointer;
 }
 .songList h6 a {
@@ -81,19 +81,22 @@
   color: gray;
 }
 
-.songList h1 {
+ h1 {
   padding-left: 25px;
-  background: linear-gradient(to bottom, red, rgba(255, 0, 0, 0.297));
+  /* background: linear-gradient(to bottom, red, rgba(255, 0, 0, 0.297)); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
   font-weight: bold;
+  background: linear-gradient(135deg, #57f173dd, #044920);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 4em !important;
 }
 
-.songItemContainer {
-  margin-top: 35px;
-}
 
 .songItem {
   height: 50px;
@@ -140,6 +143,20 @@
   transition: opacity 0.4s ease-in;
   margin-right: 10px;
 }
+
+body{
+  overflow-y: hidden;
+}
+
+.temp {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 0% 5% 20%;
+}
+.bottom{
+height: 15vh;
+}
+
 
 @media only screen and (max-width: 1100px) {
   body {
@@ -199,3 +216,6 @@ p {
   background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
   border-radius: 10px;
 }
+
+
+
