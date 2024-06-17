@@ -44,7 +44,7 @@
 .bottom {
   position: sticky;
   bottom: 0px;
-  height: 120px;
+  /* height: 120px; */
   background-image: linear-gradient(to bottom, #292929, #1a1a1a);
   color: white;
   display: flex;
@@ -99,7 +99,7 @@
 
 
 .songItem {
-  height: 50px;
+  /* padding: 10px; */
   display: flex;
   background-image: linear-gradient(to bottom, #292929, #101010);
   color: white;
@@ -154,7 +154,7 @@ body{
   padding: 0% 5% 20%;
 }
 .bottom{
-height: 15vh;
+/* height: 15vh; */
 }
 
 
@@ -162,6 +162,10 @@ height: 15vh;
   body {
     background-color: red;
   }
+  .songInfo{
+    display: contents;
+  }
+  
 }
 
 .main {
@@ -216,6 +220,3 @@ p {
   background-image: linear-gradient(to bottom, #1d1d1d, #333333b7);
   border-radius: 10px;
 }
-
-
-
